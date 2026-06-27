@@ -6,14 +6,10 @@ import http from 'http';
 import cors from 'cors';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { graphqlUploadExpress } from 'graphql-upload-ts';
+import { resolvers } from './resolvers/index';
 
 const typeDefs = readFileSync(join(__dirname, 'schema/typedefs.graphql'), 'utf-8');
-
-const resolvers = {
-  Query: {
-    health: () => 'ok',
-  },
-};
 
 async function main() {
   const app = express();
@@ -30,6 +26,7 @@ async function main() {
   app.use(
     '/graphql',
     cors<cors.CorsRequest>(),
+    graphqlUploadExpress({ maxFileSize: 50 * 1024 * 1024, maxFiles: 1 }),
     express.json(),
     expressMiddleware(server),
   );
