@@ -1,3 +1,103 @@
+scalar Upload
+
+type Bank {
+  id: ID!
+  name: String!
+  code: String!
+  ledgers: [Ledger!]!
+}
+
+type Ledger {
+  id: ID!
+  displayName: String!
+  kind: LedgerKind!
+  last4: String
+  bank: Bank!
+  transactions(filter: TransactionFilter): [Transaction!]!
+  balance: Float!
+}
+
+enum LedgerKind {
+  BANK_ACCOUNT
+  CREDIT_CARD
+  LOAN
+  WALLET
+  CRYPTO
+  INVESTMENT
+}
+
+type Transaction {
+  id: ID!
+  date: String!
+  narration: String!
+  amount: Float!
+  ledger: Ledger!
+  category: String
+  merchant: String
+  sourceFingerprint: String!
+}
+
+type SpendingSummary {
+  totalSpend: Float!
+  totalIncome: Float!
+  netFlow: Float!
+  byCategory: [CategoryBreakdown!]!
+  byMonth: [MonthlyBreakdown!]!
+}
+
+type CategoryBreakdown {
+  category: String!
+  amount: Float!
+  count: Int!
+}
+
+type MonthlyBreakdown {
+  month: String!
+  spend: Float!
+  income: Float!
+}
+
+type ImportResult {
+  imported: Int!
+  duplicates: Int!
+  errors: [String!]!
+  ledger: Ledger!
+}
+
+input TransactionFilter {
+  from: String
+  to: String
+  category: String
+  minAmount: Float
+  maxAmount: Float
+}
+
+input CreateLedgerInput {
+  displayName: String!
+  kind: LedgerKind!
+  last4: String
+  bankId: ID!
+}
+
+input UpdateLedgerInput {
+  displayName: String
+  kind: LedgerKind
+  last4: String
+}
+
 type Query {
   health: String!
+  banks: [Bank!]!
+  ledger(id: ID!): Ledger
+  ledgers: [Ledger!]!
+  transactions(ledgerId: ID, filter: TransactionFilter): [Transaction!]!
+  analytics(ledgerId: ID, from: String, to: String): SpendingSummary!
+}
+
+type Mutation {
+  uploadStatement(ledgerId: ID!, file: Upload!): ImportResult!
+  createLedger(input: CreateLedgerInput!): Ledger!
+  updateLedger(id: ID!, input: UpdateLedgerInput!): Ledger!
+  deleteLedger(id: ID!): Boolean!
+  recategorize(transactionId: ID!, category: String!): Transaction!
 }
