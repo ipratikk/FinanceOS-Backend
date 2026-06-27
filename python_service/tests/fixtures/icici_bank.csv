@@ -1,0 +1,9 @@
+Statement of Transactions in Savings Account
+Customer Name,Test User
+Account Number,XXXX1234
+
+Date,Mode,Particulars,Deposits,Withdrawals,Balance
+01-04-2026,UPI,UPI/PhonePe/Grocery,,500.00,49500.00
+05-04-2026,NEFT,NEFT CR/Salary,50000.00,,99500.00
+10-04-2026,ATM,ATM Withdrawal,,2000.00,97500.00
+15-04-2026,UPI,Refund Credit,750.00,,98250.00

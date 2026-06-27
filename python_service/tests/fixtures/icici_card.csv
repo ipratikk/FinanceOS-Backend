@@ -1,0 +1,5 @@
+Date,Transaction Details,Amount(in Rs),BillingAmountSign
+01/04/2026,Swiggy Order,350.00,DR
+05/04/2026,Amazon Purchase,1200.00,DR
+10/04/2026,Refund Flipkart,500.00,CR
+20/04/2026,Netflix,649.00,DR

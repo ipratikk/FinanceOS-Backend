@@ -1,0 +1,5 @@
+Date,Narration,Value Dat,Debit Amount,Credit Amount,Chq/Ref Number,Closing Balance
+01/04/26,UPI/123456/Grocery Store/PhonePe,01/04/26,500.00,,000123,49500.00
+05/04/26,NEFT/987654/Salary Credit,05/04/26,,50000.00,000456,99500.00
+10/04/26,ATM/WDL/ABC Road,10/04/26,2000.00,,,97500.00
+15/04/26,UPI/111222/Refund from Amazon,15/04/26,,750.00,000789,98250.00
