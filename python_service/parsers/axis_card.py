@@ -1,0 +1,82 @@
+import csv
+import io
+from models.schemas import ParsedTransaction
+from parsers.base import BaseBankParser
+from parsers.utils import parse_amount, parse_date
+
+
+class AxisCardParser(BaseBankParser):
+    bank_code = "axis_card"
+
+    def detect(self, content: bytes) -> bool:
+        text = content.decode("utf-8", errors="ignore")
+        reader = csv.reader(io.StringIO(text))
+        for row in reader:
+            lower = [c.lower().strip() for c in row]
+            has_txn_date = "transaction date" in lower
+            has_desc = "description" in lower
+            has_amount = "amount" in lower or "debit" in lower
+            # Exclude rows that also have deposit+withdrawal (those are Axis Bank, not card)
+            has_bank_signals = (
+                ("deposit" in lower or "credit" in lower)
+                and ("withdrawal" in lower)
+            )
+            if has_txn_date and has_desc and has_amount and not has_bank_signals:
+                return True
+        return False
+
+    def parse(self, content: bytes) -> list[ParsedTransaction]:
+        text = content.decode("utf-8", errors="ignore")
+        reader = csv.reader(io.StringIO(text))
+        rows = list(reader)
+
+        header_idx = None
+        for i, row in enumerate(rows):
+            lower = [c.lower().strip() for c in row]
+            if "transaction date" in lower and "description" in lower and (
+                "amount" in lower or "debit" in lower
+            ):
+                header_idx = i
+                break
+        if header_idx is None:
+            return []
+
+        header = [c.lower().strip() for c in rows[header_idx]]
+        col = {h: i for i, h in enumerate(header)}
+        date_key = "transaction date"
+        desc_key = next((k for k in col if k == "description"), None)
+        credit_key = next((k for k in col if k in ("credit", "deposit")), None)
+        debit_key = next((k for k in col if k in ("debit", "amount")), None)
+
+        results: list[ParsedTransaction] = []
+        for i, row in enumerate(rows[header_idx + 1:]):
+            if not row or row[0].strip().upper().startswith("CLOSING"):
+                continue
+            date_str = row[col[date_key]].strip()
+            date = parse_date(date_str, "%d/%m/%Y", "%d-%b-%Y")
+            if not date:
+                continue
+            desc = row[col[desc_key]].strip() if desc_key else ""
+            credit = (
+                parse_amount(row[col[credit_key]]) or 0
+                if credit_key and col[credit_key] < len(row)
+                else 0
+            )
+            debit = (
+                parse_amount(row[col[debit_key]]) or 0
+                if debit_key and col[debit_key] < len(row)
+                else 0
+            )
+            if credit == 0 and debit == 0:
+                continue
+            amount = -credit if credit > 0 else debit
+            fingerprint = f"{date_str}|{desc}|{credit}|{debit}"
+            results.append(ParsedTransaction(
+                posted_at=date,
+                description=desc,
+                amount_minor_units=amount,
+                currency_code="INR",
+                source_fingerprint=fingerprint,
+                statement_row_index=i,
+            ))
+        return results
