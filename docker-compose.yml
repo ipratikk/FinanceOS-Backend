@@ -1,0 +1,58 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: financeOS
+      POSTGRES_PASSWORD: financeOS
+      POSTGRES_DB: financeOS
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U financeOS"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  node-api:
+    build: ./node_api
+    ports:
+      - "4000:4000"
+    environment:
+      DATABASE_URL: postgresql://financeOS:financeOS@postgres:5432/financeOS
+      PYTHON_SERVICE_URL: http://python-parser:8000
+      NODE_ENV: development
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  python-parser:
+    build: ./python_service
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://financeOS:financeOS@postgres:5432/financeOS
+      REDIS_URL: redis://redis:6379
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+volumes:
+  pgdata:
