@@ -1,0 +1,17 @@
+# Node
+node_modules/
+dist/
+*.js.map
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Docker
+*.log
+
+# macOS
+.DS_Store
