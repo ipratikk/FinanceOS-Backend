@@ -15,6 +15,7 @@ export const resolvers = {
     ...analyticsResolvers.Query,
   },
   Mutation: {
+    ...bankResolvers.Mutation,
     ...ledgerResolvers.Mutation,
     ...transactionResolvers.Mutation,
     ...uploadResolvers.Mutation,
