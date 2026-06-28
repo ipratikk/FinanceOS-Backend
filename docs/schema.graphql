@@ -85,12 +85,17 @@ input UpdateLedgerInput {
   last4: String
 }
 
+input CreateBankInput {
+  name: String!
+  code: String!
+}
+
 type Query {
   health: String!
   banks: [Bank!]!
   ledger(id: ID!): Ledger
   ledgers: [Ledger!]!
-  transactions(ledgerId: ID, filter: TransactionFilter): [Transaction!]!
+  transactions(ledgerId: ID, filter: TransactionFilter, limit: Int): [Transaction!]!
   analytics(ledgerId: ID, from: String, to: String): SpendingSummary!
 }
 
@@ -100,4 +105,7 @@ type Mutation {
   updateLedger(id: ID!, input: UpdateLedgerInput!): Ledger!
   deleteLedger(id: ID!): Boolean!
   recategorize(transactionId: ID!, category: String!): Transaction!
+  deleteTransaction(id: ID!): Boolean!
+  createBank(input: CreateBankInput!): Bank!
+  clearAllData: Boolean!
 }
