@@ -31,16 +31,16 @@ export const ledgerResolvers = {
       if (filter?.from) where.date = { gte: new Date(filter.from) };
       if (filter?.to) where.date = { ...(where.date as object ?? {}), lte: new Date(filter.to) };
       if (filter?.category) where.category = filter.category;
-      if (filter?.minAmount != null) where.amount = { gte: filter.minAmount / 100 };
-      if (filter?.maxAmount != null) where.amount = { ...(where.amount as object ?? {}), lte: filter.maxAmount / 100 };
+      if (filter?.minAmount != null) where.amountMinorUnits = { gte: filter.minAmount };
+      if (filter?.maxAmount != null) where.amountMinorUnits = { ...(where.amountMinorUnits as object ?? {}), lte: filter.maxAmount };
       return prisma.transaction.findMany({ where, orderBy: { date: 'desc' } });
     },
     balance: async (parent: { id: string }) => {
       const result = await prisma.transaction.aggregate({
         where: { ledgerId: parent.id },
-        _sum: { amount: true },
+        _sum: { amountMinorUnits: true },
       });
-      return result._sum.amount ?? 0;
+      return { value: result._sum.amountMinorUnits ?? 0, currencyCode: 'INR' };
     },
   },
 };

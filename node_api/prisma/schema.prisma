@@ -30,7 +30,8 @@ model Transaction {
   id                String   @id @default(uuid())
   date              DateTime
   narration         String
-  amount            Float
+  amountMinorUnits  Int
+  currencyCode      String   @default("INR")
   ledgerId          String
   ledger            Ledger   @relation(fields: [ledgerId], references: [id])
   category          String?

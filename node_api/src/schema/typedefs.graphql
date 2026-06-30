@@ -1,5 +1,17 @@
 scalar Upload
 
+enum CurrencyCode {
+  INR
+  USD
+  EUR
+  GBP
+}
+
+type Money {
+  value: Int!
+  currencyCode: CurrencyCode!
+}
+
 type Bank {
   id: ID!
   name: String!
@@ -14,7 +26,7 @@ type Ledger {
   last4: String
   bank: Bank!
   transactions(filter: TransactionFilter): [Transaction!]!
-  balance: Float!
+  balance: Money!
 }
 
 enum LedgerKind {
@@ -30,7 +42,7 @@ type Transaction {
   id: ID!
   date: String!
   narration: String!
-  amount: Float!
+  amount: Money!
   ledger: Ledger!
   category: String
   merchant: String
@@ -38,23 +50,23 @@ type Transaction {
 }
 
 type SpendingSummary {
-  totalSpend: Float!
-  totalIncome: Float!
-  netFlow: Float!
+  totalSpend: Money!
+  totalIncome: Money!
+  netFlow: Money!
   byCategory: [CategoryBreakdown!]!
   byMonth: [MonthlyBreakdown!]!
 }
 
 type CategoryBreakdown {
   category: String!
-  amount: Float!
+  amount: Money!
   count: Int!
 }
 
 type MonthlyBreakdown {
   month: String!
-  spend: Float!
-  income: Float!
+  spend: Money!
+  income: Money!
 }
 
 type ImportResult {
@@ -68,8 +80,8 @@ input TransactionFilter {
   from: String
   to: String
   category: String
-  minAmount: Float
-  maxAmount: Float
+  minAmount: Int
+  maxAmount: Int
 }
 
 input CreateLedgerInput {

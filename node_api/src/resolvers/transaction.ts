@@ -6,7 +6,7 @@ export const transactionResolvers = {
       _: unknown,
       { ledgerId, filter, limit }: {
         ledgerId?: string;
-        filter?: { from?: string; to?: string; category?: string };
+        filter?: { from?: string; to?: string; category?: string; minAmount?: number; maxAmount?: number };
         limit?: number;
       },
     ) => {
@@ -15,6 +15,8 @@ export const transactionResolvers = {
       if (filter?.from) where.date = { gte: new Date(filter.from) };
       if (filter?.to) where.date = { ...(where.date as object ?? {}), lte: new Date(filter.to) };
       if (filter?.category) where.category = filter.category;
+      if (filter?.minAmount != null) where.amountMinorUnits = { gte: filter.minAmount };
+      if (filter?.maxAmount != null) where.amountMinorUnits = { ...(where.amountMinorUnits as object ?? {}), lte: filter.maxAmount };
       return prisma.transaction.findMany({
         where,
         orderBy: { date: 'desc' },
@@ -37,6 +39,10 @@ export const transactionResolvers = {
   Transaction: {
     date: (parent: { date: Date | string }) =>
       parent.date instanceof Date ? parent.date.toISOString() : parent.date,
+    amount: (parent: { amountMinorUnits: number; currencyCode: string }) => ({
+      value: parent.amountMinorUnits,
+      currencyCode: parent.currencyCode,
+    }),
     ledger: (parent: { ledgerId: string }) =>
       prisma.ledger.findUnique({ where: { id: parent.ledgerId }, include: { bank: true } }),
   },

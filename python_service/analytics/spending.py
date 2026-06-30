@@ -2,19 +2,23 @@ from collections import defaultdict
 from datetime import datetime
 
 
+def _money(value: int, currency: str = "INR") -> dict:
+    return {"value": value, "currencyCode": currency}
+
+
 def compute_summary(
-    rows: list[tuple[datetime, float, str | None]],
+    rows: list[tuple[datetime, int, str | None]],
 ) -> dict:
     """
-    Compute SpendingSummary from (date, amount_rupees, category) tuples.
-    amount > 0 = debit (spend), amount < 0 = credit (income).
+    Compute SpendingSummary from (date, amount_minor_units, category) tuples.
+    amount > 0 = debit (spend), amount < 0 = credit (income). All values in minor units.
     """
-    total_spend = 0.0
-    total_income = 0.0
-    category_spend: dict[str, float] = defaultdict(float)
+    total_spend = 0
+    total_income = 0
+    category_spend: dict[str, int] = defaultdict(int)
     category_count: dict[str, int] = defaultdict(int)
-    monthly_spend: dict[str, float] = defaultdict(float)
-    monthly_income: dict[str, float] = defaultdict(float)
+    monthly_spend: dict[str, int] = defaultdict(int)
+    monthly_income: dict[str, int] = defaultdict(int)
 
     for date, amount, category in rows:
         month_key = date.strftime("%Y-%m")
@@ -32,18 +36,18 @@ def compute_summary(
     all_months = sorted(set(list(monthly_spend.keys()) + list(monthly_income.keys())))
 
     return {
-        "totalSpend": round(total_spend, 2),
-        "totalIncome": round(total_income, 2),
-        "netFlow": round(total_income - total_spend, 2),
+        "totalSpend": _money(total_spend),
+        "totalIncome": _money(total_income),
+        "netFlow": _money(total_income - total_spend),
         "byCategory": [
-            {"category": cat, "amount": round(amt, 2), "count": category_count[cat]}
+            {"category": cat, "amount": _money(amt), "count": category_count[cat]}
             for cat, amt in sorted(category_spend.items(), key=lambda x: -x[1])
         ],
         "byMonth": [
             {
                 "month": m,
-                "spend": round(monthly_spend.get(m, 0.0), 2),
-                "income": round(monthly_income.get(m, 0.0), 2),
+                "spend": _money(monthly_spend.get(m, 0)),
+                "income": _money(monthly_income.get(m, 0)),
             }
             for m in all_months
         ],
@@ -75,8 +79,8 @@ async def fetch_and_compute(
         arg_idx += 1
 
     where = ("WHERE " + " AND ".join(conditions)) if conditions else ""
-    query = f'SELECT date, amount, category FROM "Transaction" {where}'
+    query = f'SELECT date, "amountMinorUnits", category FROM "Transaction" {where}'
 
     rows_db = await pool.fetch(query, *args)
-    rows = [(r["date"], float(r["amount"]), r["category"]) for r in rows_db]
+    rows = [(r["date"], r["amountMinorUnits"], r["category"]) for r in rows_db]
     return compute_summary(rows)

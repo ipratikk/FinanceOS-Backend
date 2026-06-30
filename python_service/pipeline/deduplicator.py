@@ -1,6 +1,11 @@
 import asyncpg
+import secrets
 from datetime import timezone
 from models.schemas import ParsedTransaction
+
+
+def tx_id() -> str:
+    return f"TX-{secrets.token_hex(4).upper()}"
 
 
 async def split_new_and_duplicates(
@@ -38,14 +43,16 @@ async def bulk_insert(pool: asyncpg.Pool, ledger_id: str, transactions: list[Par
                     posted_at = posted_at.astimezone(timezone.utc).replace(tzinfo=None)
                 await conn.execute(
                     """
-                    INSERT INTO "Transaction" (id, date, narration, amount, "ledgerId", category, merchant, "sourceFingerprint", "createdAt")
-                    VALUES (gen_random_uuid()::text, $1, $2, $3, $4, NULL, NULL, $5, NOW())
+                    INSERT INTO "Transaction" (id, date, narration, "amountMinorUnits", "currencyCode", "ledgerId", category, merchant, "sourceFingerprint", "createdAt")
+                    VALUES ($6, $1, $2, $3, $4, $5, NULL, NULL, $7, NOW())
                     ON CONFLICT ("ledgerId", "sourceFingerprint") DO NOTHING
                     """,
                     posted_at,
                     t.description,
-                    t.amount_minor_units / 100.0,
+                    t.amount_minor_units,
+                    t.currency_code or "INR",
                     ledger_id,
+                    tx_id(),
                     t.source_fingerprint,
                 )
             except Exception as e:
