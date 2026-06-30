@@ -1,6 +1,6 @@
 # FinanceOS API Reference
 
-> Auto-generated 2026-06-30 20:19 UTC from `node_api/src/schema/typedefs.graphql`. Do not edit manually.
+> Auto-generated 2026-06-30 20:26 UTC from `node_api/src/schema/typedefs.graphql`. Do not edit manually.
 
 ## Endpoint
 
