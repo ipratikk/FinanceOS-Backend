@@ -1,0 +1,13 @@
+#!/bin/sh
+# Auto-generate docs/API.md from GraphQL schema on every commit.
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+if command -v python3 >/dev/null 2>&1; then
+    if python3 "$REPO_ROOT/scripts/generate_api_docs.py"; then
+        git add "$REPO_ROOT/docs/API.md"
+    else
+        echo "Warning: API doc generation failed — continuing commit without updating docs/API.md"
+    fi
+else
+    echo "Warning: python3 not found — skipping API doc generation"
+fi
