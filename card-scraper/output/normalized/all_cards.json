@@ -1,0 +1,822 @@
+[
+  {
+    "name": "Millennia Credit Card",
+    "description": "",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/millennia-credit-card/images/millennia-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_millenia_CC_Cat_pg_apply_online&icid=website_organic_millenia_CC_Cat_pg_apply_online#nbb",
+    "detailsLink": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+    "rewards": [
+      "5% Cashback On Amazon, Flipkart, Myntra, Swiggy, Zomato And More.",
+      " ₹1000 Worth Gift Voucher On Spends Of ₹1 Lakh Per Calendar Quarter",
+      "Get 10% Additional Discount On Swiggy Dineout"
+    ],
+    "benefits": [
+      "Dining",
+      "Shopping",
+      "Entertainment",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "MoneyBack+ Credit Card",
+    "description": "The Most Rewarding Card for Household Spends",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/moneyback-plus-credit-card/images/moneyback-plus-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_prodPg_applynow_moneybackplus_CC&icid=website_organic:prodPg_applynow:moneybackplus#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/moneyback-plus-credit-card.html",
+    "rewards": [
+      "10x Cashpoints(2.5% Valueback) At Select Merchants",
+      "Gift Voucher Worth Upto ₹500 On Spends On ₹50,000 Per Calendar Quarter",
+      "10% Additional Discount On Swiggy Dineout"
+    ],
+    "benefits": [
+      "Shopping",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "IndianOil Credit Card",
+    "description": "",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/iocl.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?channelsource=iocl&LGCode=MKTG&mc_id=website_organic_CatPg_applynow_IOCL_CC&icid=website_organic:CatPg_applynow:IOCL_CC#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/indianoil-hdfc-bank-credit-card.html",
+    "rewards": [
+      "Earn Up To 50 Litres Of Free Fuel Annually",
+      "Earn 5% Of Your Spends As Fuel Points At Indianoil Outlets",
+      "Earn 5% Of Your Spends As Fuel Points On Groceries And Bill Payments"
+    ],
+    "benefits": [
+      "Fuel"
+    ]
+  },
+  {
+    "name": "Pixel Play Credit Card",
+    "description": "The Born Digital Range of Credit Cards ",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/pixel-play-b.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=ZETA&LGCode=MKTG&mc_id=website_cc_cat_pg_pixel_play_accordion_apply&icicd=website_cc_cat_pg_pixel_play_accordion_apply#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/pixel-play-credit-card.html",
+    "rewards": [
+      "Up To 5% Cashback On Select Categories ",
+      "Customisable Design & Billing Cycle",
+      "Manage Card Easily On Payzapp "
+    ],
+    "benefits": [
+      "Dining",
+      "Shopping"
+    ]
+  },
+  {
+    "name": "Freedom Credit Card",
+    "description": "",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/freedom-credit-card/freedom-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_CC_CatPg_applyonline_Freedomcc&icid=website_organic_CC_CatPg_applyonline_Freedomcc#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/freedom-credit-card.html",
+    "rewards": [
+      "10x Cashpoints On Select Merchants",
+      "Get Additional 10% Off Via Swiggy Dineout",
+      "Up To 50 Days Of Interest Free Period"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Diners Club Black Metal Edition Credit Card",
+    "description": "Global Belonging, Ready for You. ",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-club-black-credit-card/diners-club-black.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?utm_content=MKTG&mc_id=website_dc_black_metal&icid=website_dc_black_metal#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/diners-club-black-metal-edition-credit-card.html",
+    "rewards": [
+      "10,000 Points On Quarterly Spends Of ₹4l ",
+      "6 Complimentary Golf Games",
+      "Unlimited Airport Lounge Access"
+    ],
+    "benefits": [
+      "Travel",
+      "Dining",
+      "Shopping"
+    ]
+  },
+  {
+    "name": "Tata Neu Plus Credit Card",
+    "description": "Extraordinary Rewards, Ready for You.",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/tata-neu-p.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=TDCC&Lgcode=MKTG&mc_id=website&icid=website#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/tata-neu-plus-hdfc-bank-credit-card.html",
+    "rewards": [
+      "2% Back As Neucoins On Tata Neu And Partner Tata Brand Spends",
+      "Additional 5% Back As Neucoins On Selected Tata Neu Spends, Post Registering For Tata Neupass",
+      "1% Back As Neucoins On Other Eligible Non Upi Spends"
+    ],
+    "benefits": [
+      "Travel",
+      "Shopping",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Marriott Bonvoy HDFC Bank Credit Card",
+    "description": "UNMATCHED LUXURY. READY FOR YOU.",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/marriott-bonvoy-credit/images/Card-Facia-Marriott-Bonvoy.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=MRTB&DEDUPE=N&LGcode=MKTG&mc_id=website_organic_marriott_CC_Cat_pg_apply_online&icid=website_organic_marriott_CC_Cat_pg_apply_online#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/marriott-bonvoy-credit-card.html",
+    "rewards": [
+      "Complimentary Stay At Marriott Bonvoy",
+      "Earn Up To 15,000 Points",
+      "Marriott Bonvoy Silver Elite Status"
+    ],
+    "benefits": [
+      "Travel",
+      "Dining",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "IRCTC HDFC Bank Credit Card",
+    "description": "There's a train ride in every swipe",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/irctc-credit-card/images/Card-Facia-IRCTC.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=IRCT?LGCode=MKTG&mc_id=website_organic_irctc_CC_Cat_pg_apply_online&icid=website_organic_irctc_CC_Cat_pg_apply_online#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/irctc-credit-card.html",
+    "rewards": [
+      "5 Reward Points On Irctc Website And App",
+      "Gift Voucher Worth ₹500",
+      "Complimentary Access To Irctc Executive Lounge"
+    ],
+    "benefits": [
+      "Travel",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Diners Club Privilege Credit Card",
+    "description": "Global Belonging Ready for You",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-privilege-credit-card/images/diners-club-privilege.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=DINE&LGcode=MKTG&mc_id=website_dc_privilege&icid=website_dc_privilege#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/diners-privilege-credit-card.html",
+    "rewards": [
+      "‘buy One, Get One’ On  Bookmyshow",
+      "5x Reward Points On Swiggy & Zomato",
+      "8 Free Airport Lounge Access Worldwide"
+    ],
+    "benefits": [
+      "Dining",
+      "Entertainment",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Tata Neu Infinity HDFC Bank Credit Card",
+    "description": "Extraordinary Rewards. Ready for You.",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/tata-neu-i.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=TDCC&Lgcode=MKTG&mc_id=website_catpage&icid=website_catpage#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/tata-neu-infinity-hdfc-bank-credit-card.html",
+    "rewards": [
+      "5% Back As Neucoins On Tata Neu And Partner Tata Brand Spends",
+      "Additional 5% Back As Neucoins On Selected Tata Neu Spends, Post Registering For Tata Neupass",
+      "1.5% Back As Neucoins On Other Eligible Non Upi Spends"
+    ],
+    "benefits": [
+      "Travel",
+      "Shopping",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Shoppers Stop Black HDFC Bank Credit Card",
+    "description": "Rewarding Style. Ready for You",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/shoppers-stop-black-hdfc-bank-credit-card/images/shoppers-stop-black-hdfc-bank-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=FCBH&DEDUPE=N&LGcode=MKTG&mc_id=website_catpage&icid=website_catpage#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/shoppers-stop-black-credit-card.html",
+    "rewards": [
+      "7% Reward Points On Shoppers Stop Purchases",
+      "Welcome Voucher Worth ₹1,500",
+      "Shoppers Stop Black Membership"
+    ],
+    "benefits": [
+      "Shopping"
+    ]
+  },
+  {
+    "name": "Shoppers Stop HDFC Bank Credit Card",
+    "description": "Rewarding Style, Ready for you",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/shoppers-stop-credit-card/Images/Card-Facia-Shoppers-Stop-Blue.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=FCBH&DEDUPE=N&LGcode=MKTG&mc_id=website_catpage&icid=website_catpage#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/shoppers-stop-credit-card.html",
+    "rewards": [
+      "3% Reward Points On Shoppers Stop Purchases",
+      "Welcome Voucher Worth ₹500",
+      "Shoppers Stop Silver Edge Membership"
+    ],
+    "benefits": [
+      "Shopping"
+    ]
+  },
+  {
+    "name": "Paytm HDFC Bank Select Credit Card",
+    "description": "CashBack on Every Purchase",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "https://paytm.com/offer/paytm-hdfc-bank-select-credit-card?shortlink=2t2cdyrf&is_retargeting=true&c=HDFC_DIGITAL_Asset_Consumer_Affluent&pid=HDFC_BANK&source_caller=ui",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/paytm-select-credit-card.html",
+    "rewards": [
+      "Up To 5% Cashback On Every Purchase",
+      "Paytm First Membership",
+      "8 Free Airport Lounge Accesses"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Paytm HDFC Bank Credit Card",
+    "description": "Unlimited CashBack Every Time",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "https://paytm.com/offer/paytm-hdfcbank-cc?shortlink=CM&is_retargeting=true&c=HDFC_DIGITAL_Asset_Consumer_Mass&pid=HDFC_BANK&source_caller=unknown",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/paytm-credit-card.html",
+    "rewards": [
+      "Up To 3% Cashback On Every Purchase",
+      "Paytm First Membership",
+      "Upto 50 Days Of Credit Free Period"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Paytm HDFC Bank Mobile Credit Card",
+    "description": "Your Mobile is Your Credit Card ",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "https://paytm.com/",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/paytm-mobile-credit-card.html",
+    "rewards": [
+      "Up To 2% Unlimited Cashback",
+      "Upgrade To A Paytm Hdfc Bank Credit Card",
+      "Easy Card Customisation"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Pixel Go Credit Card",
+    "description": "The Born Digital Range of Credit Cards",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/pixel-go.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=ZETA&LGCode=MKTG",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/pixel-go-credit-card.html",
+    "rewards": [
+      "1% Cashback On Select Transactions",
+      "Shop Now, Pay Later In Emis",
+      "25% Off On Restaurants Via Swiggy Dineout"
+    ],
+    "benefits": [
+      "Dining",
+      "Shopping",
+      "Entertainment"
+    ]
+  },
+  {
+    "name": "HDFC Bank UPI RuPay Credit Card",
+    "description": "",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/upi-rupay.png",
+    "applyLink": "https://mycards.hdfc.bank.in/?redirect_url=%2F/dualcard?type=rupayCard%3FfeatureType%3DrupayCard&type=rupayCard&productType=CC&cardNum",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/hdfc-bank-upi-rupay-credit-card.html",
+    "rewards": [
+      "Up To 3% Cashpoints On Daily, Utility & Other Spends ",
+      "Interest Free Credit Period ",
+      "Renewal Fee Waiver  "
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Paytm HDFC Bank Digital Credit Card",
+    "description": "Digital Experience Curated for You",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "/content/hdfcbankpws/in/en/coming-soon.html",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/paytm-digital-credit-card.html",
+    "rewards": [
+      "Up To 2% Cashback On Scan & Pay",
+      "Card Personalisation As Per Preference",
+      "Fuel Surcharge Waiver"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "HDFC Bank Times Card Credit",
+    "description": "",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/titanium-times-card-credit-card/images/titanium-times-card-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_times_CC_Cat_pg_applyonline&icid=website_organic_times_CC_Cat_pg_applyonline#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/titanium-times-card-credit-card.html",
+    "rewards": [
+      "Free Annual Membership Valued At ₹999",
+      "50% Off On Movie Tickets At Bookmyshow",
+      "3 Reward Points For Every ₹150 Spent"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Regalia Gold Credit Card",
+    "description": "Experience the Golden Side of Life",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/regalia-gold-credit-card/images/regalia-gold-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=RGCC&LGCode=MKTG&icid=website_organic_herobanner_regaliagoldcreditcard:banner:applynow#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/regalia-gold-credit-card.html",
+    "rewards": [
+      "Gift Voucher Worth ₹2,500*",
+      "Complimentary Memberships ",
+      "5x Reward Points On Top Brands "
+    ],
+    "benefits": [
+      "Travel",
+      "Shopping"
+    ]
+  },
+  {
+    "name": "BizBlack Metal Edition Business Credit Card",
+    "description": "",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/business-credit-cards/bizblack-metal-edition.jpg",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=BIZC&LGCode=MKTG&mc_id=website_organic_catPg_applynow_BizBlack&icid=website_organic_catPg_applynow_BizBlack",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/business-credit-cards/biz-black-credit-card.html",
+    "rewards": [
+      "No Interest Up To 55 Days",
+      "5 Reward Points For Every ₹150 Spent",
+      "Complimentary Annual Club Marriott Membership"
+    ],
+    "benefits": [
+      "Travel",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "BizFirst Business Credit Card",
+    "description": "",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/business-credit-cards/bizfirst.jpg",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=BIZC&LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_catPg_applynow_BizFirst&icid=website_organic_catPg_applynow_BizFirst",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/business-credit-cards/biz-first-credit-card.html",
+    "rewards": [
+      "Up To 3% Cashpoints On Emi, Utility & More",
+      "₹250 Gift Voucher On Card Activation",
+      "Save 20% Via Swiggy Dineout"
+    ],
+    "benefits": [
+      "Shopping",
+      "Fuel",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "BizGrow Business Credit Card",
+    "description": "",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/business-credit-cards/bizgrow.jpg",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=BIZC&LGCode=MKTG&mc_id=website_organic_catPg_applynow_BizGrow&icid=website_organic_catPg_applynow_BizGrow",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/business-credit-cards/biz-grow-credit-card.html",
+    "rewards": [
+      "Business Insurance Benefits Up To ₹5 Lakh",
+      "2000 Cashpoints For ₹1 Lakh Quarterly Spends",
+      "1% Fuel Surcharge Waiver"
+    ],
+    "benefits": [
+      "Shopping",
+      "Fuel",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "BizPower Business Credit Card",
+    "description": "",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/business-credit-cards/bizpower.jpg",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=BIZC&LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_catPg_applynow_BizPower&icid=website_organic_catPg_applynow_BizPower",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/business-credit-cards/biz-power-credit-card.html",
+    "rewards": [
+      "5x Reward Points On Bill Payments",
+      "Free Amazon Prime Annual Membership & More",
+      "Domestic & International Airport Lounge Access"
+    ],
+    "benefits": [
+      "Travel",
+      "Shopping",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "PhonePe HDFC Bank Ultimo Credit Card",
+    "description": "",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "https://www.phonepe.com/credit-cards/phonepe-hdfc-credit-card/?icid=website_organic_herobanner_phonepehdfcbankultimocreditcard:banner:applynow",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/phonepe-hdfc-bank-ultimo-credit-card.html",
+    "rewards": [
+      "10% Reward Points On Select Phonepe Categories",
+      "5% Reward Points On Select Online Brands",
+      "1% Reward Points On All Scan & Pay Transactions"
+    ],
+    "benefits": [
+      "Dining",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "PhonePe HDFC Bank Uno Credit Card",
+    "description": "",
+    "image": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "https://www.phonepe.com/credit-cards/phonepe-hdfc-credit-card/?icid=website_organic_herobanner_phonepehdfcbankultimocreditcard:banner:applynow",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/phonepe-hdfc-bank-uno-credit-card.html",
+    "rewards": [
+      "2% Reward Points On Select Phonepe Categories",
+      "1% Reward Points On Select Online Brands",
+      "1% Reward Points On All Scan & Pay Transactions"
+    ],
+    "benefits": [
+      "Dining",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Adani One ICICI Bank Platinum Credit Card",
+    "description": "Apply for Adani One ICICI Bank Platinum Credit Card & get complimentary domestic lounge visits per year. Enjoy hotel vouchers, lounge access & airport benefits",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/platinum-card",
+    "rewards": [
+      "get complimentary domestic lounge visits per year"
+    ],
+    "benefits": [
+      "Lounge Access"
+    ]
+  },
+  {
+    "name": "Adani One ICICI Bank Signature Credit Card",
+    "description": "Apply for the Adani One ICICI Bank Signature Credit Card   and earn 7% Adani Reward Points on Adani One spends. Enjoy vouchers, lounge access, and exclusive airport benefits.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/signature-credit-card",
+    "rewards": [
+      "7% Adani Reward Points on Adani One spends"
+    ],
+    "benefits": [
+      "Lounge Access"
+    ]
+  },
+  {
+    "name": "Amazon Pay ICICI Bank Credit Card",
+    "description": "Apply for the Amazon Pay ICICI Bank Credit Card and enjoy cashback on every purchase. Unlock exclusive rewards and start saving instantly.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Shopping",
+      "Fuel"
+    ]
+  },
+  {
+    "name": "Best Fuel Credit Card - Apply for HPCL Fuel Credit Card Online",
+    "description": "Get the best ICICI Bank Fuel Credit Card and save up to 5% at HPCL pumps with fuel surcharge waivers and rewards on utility spends.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/fuel",
+    "rewards": [
+      "5% at HPCL pumps with fuel surcharge waivers and rewards on utility spends",
+      "Get the best ICICI Bank Fuel Credit Card and save up to 5% at HPCL pumps with fuel surcharge waivers and rewards on utility spends"
+    ],
+    "benefits": [
+      "Fuel"
+    ]
+  },
+  {
+    "name": "Chennai Super Kings ICICI Bank Credit Card",
+    "description": "Get the Chennai Super Kings Credit Card by ICICI Bank & enjoy exclusive benefits, rewards, and exciting offers for loyal fans. Apply now!",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/csk-card",
+    "rewards": [
+      "Get the Chennai Super Kings Credit Card by ICICI Bank & enjoy exclusive benefits"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Credit Builder Programme - How to Track and Maintain Credit Score",
+    "description": "Terms and Conditions of ICICI Bank Ltd",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/revamp/personal-banking/cards/credit-card/credit-builder-programme",
+    "rewards": [],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Culinary Treats Program With Exclusive Credit Card Offers - ICICI Bank",
+    "description": "Shop in full, pay in parts with ICICI Bank Instant EMI. Instant EMI refers to the conversion into EMI upon request by the Card Member, of transactions performed using the Card and for such online transactions, where the option for such conversion is available.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/culinary-treat",
+    "rewards": [],
+    "benefits": [
+      "Shopping"
+    ]
+  },
+  {
+    "name": "Expressions Credit Card - Personalise Your Card",
+    "description": "Expressions Credit Card - Personalise your card with unique designs. Enjoy rewards, complimentary lounge access, fuel waivers, and discounts on movies. ",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/expressions-card",
+    "rewards": [],
+    "benefits": [
+      "Lounge Access",
+      "Fuel",
+      "Entertainment"
+    ]
+  },
+  {
+    "name": "ICICI Bank Coral Credit Card",
+    "description": "ICICI Bank Coral credit card offers lounge access, reward points, and BookMyShow offers. Apply for ICICI Bank Coral credit card   today and enjoy premium benefits.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Lounge Access",
+      "Fuel"
+    ]
+  },
+  {
+    "name": "ICICI Bank Credit Card Rewards",
+    "description": "Redeem your ICICI Bank credit card reward points for gift vouchers, lifestyle products, travel benefits, and exclusive deals. Learn the simple process.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/credit-card-services/rewards",
+    "rewards": [],
+    "benefits": [
+      "Travel",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "ICICI Bank Emeralde Credit Card - Experience Premium Privileges",
+    "description": "Upgrade to a premium lifestyle with the ICICI Bank Emeralde Credit Card—featuring unlimited lounge access, golf sessions, movie offers, travel benefits, and reward points.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Travel",
+      "Lounge Access",
+      "Entertainment",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "ICICI Bank Emeralde Private Metal Credit Card - Apply Online",
+    "description": "ICICI Bank Emeralde Private Metal Credit Card: Get luxury benefits including Taj Epicure & EazyDiner Prime memberships, unlimited lounge access & golf rounds, 12,500 reward points & more!",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+    "rewards": [
+      "Get luxury benefits including Taj Epicure & EazyDiner Prime memberships"
+    ],
+    "benefits": [
+      "Lounge Access",
+      "Entertainment"
+    ]
+  },
+  {
+    "name": "ICICI Bank HPCL Coral Credit Card",
+    "description": "Apply for the ICICI Bank HPCL Coral Credit Card and get 25% cashback on fuel spends. Enjoy fuel savings, rewards, and exclusive lifestyle benefits.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+    "rewards": [
+      "25% cashback on fuel spends",
+      "get 25% cashback on fuel spends"
+    ],
+    "benefits": [
+      "Shopping",
+      "Fuel",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "ICICI Bank HPCL Super Saver Credit Card",
+    "description": "Apply for the ICICI Bank HPCL Super Saver Credit Card and get 5% cashback on fuel spends. Enjoy fuel savings, rewards, and exclusive lifestyle benefits.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+    "rewards": [
+      "5% cashback on fuel spends",
+      "get 5% cashback on fuel spends"
+    ],
+    "benefits": [
+      "Shopping",
+      "Fuel",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "ICICI Bank Manchester United Platinum Card",
+    "description": "Get the ICICI Bank Manchester United Platinum Credit Card. Enjoy exclusive football rewards, lounge access, and dining discounts. Apply for your card today!",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/credit-card/platinum-chip/platinum-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/manchester-platinum-card",
+    "rewards": [
+      "Get the ICICI Bank Manchester United Platinum Credit Card"
+    ],
+    "benefits": [
+      "Lounge Access",
+      "Dining",
+      "Fuel"
+    ]
+  },
+  {
+    "name": "ICICI Bank Parakram Credit Card",
+    "description": "Experience a world of unlimited rewards and benefits with ICICI Bank's Parakram Credit Card. Apply now and take your finances to new heights!",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/parakram-cards/parakram",
+    "rewards": [],
+    "benefits": [
+      "Fuel",
+      "Insurance"
+    ]
+  },
+  {
+    "name": "ICICI Bank Rubyx Credit Card",
+    "description": "Apply online for the ICICI Bank Rubyx Credit Card and enjoy premium travel, lifestyle, dining, and entertainment privileges with exclusive rewards..",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Travel",
+      "Dining",
+      "Entertainment",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "ICICI Bank Sapphiro Credit Card",
+    "description": "Apply online for the ICICI Bank Sapphiro Credit Card and enjoy airport lounge access, welcome vouchers, milestone rewards, BookMyShow discounts, and concierge services.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+    "rewards": [],
+    "benefits": [
+      "Lounge Access"
+    ]
+  },
+  {
+    "name": "Instant FD Credit Card Against Fixed Deposit",
+    "description": "Apply for an FD credit card against fixed deposit at ICICI Bank. Enjoy instant approval, minimal documentation, and up to 90% credit limit on your fixed deposit.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/credit-card-against-fixed-deposit",
+    "rewards": [
+      "90% credit limit on your fixed deposit"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Instant Loan Against Credit Card",
+    "description": "Apply for an instant ICICI bank personal loan against credit card and enjoy low credit card loan interest rates with fast disbursal.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/personal-loan-on-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "List of branches sourcing Secured Credit Cards",
+    "description": "Branches offering Secured Credit Cards – find locations near you that provide secured credit card services",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/revamp/personal-banking/cards/credit-card/list-of-branches",
+    "rewards": [],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "MakeMyTrip ICICI Bank Credit Card",
+    "description": "Unlock exclusive travel perks with the MakeMyTrip ICICI Bank Credit Card. Get 6% myCash travel, MMTBLACK Gold membership, and low forex markup fees.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/makemytrip-icici-credit-card",
+    "rewards": [
+      "6% myCash travel",
+      "Get 6% myCash travel"
+    ],
+    "benefits": [
+      "Travel"
+    ]
+  },
+  {
+    "name": "MakeMyTrip ICICI Bank Platinum Card",
+    "description": "Travel smarter with the MakeMyTrip ICICI Bank Platinum Card. Earn myCash on every spend, get exclusive hotel discounts and domestic lounge access. No annual fee!",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/credit-card/platinum-chip/platinum-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card",
+    "rewards": [
+      "get exclusive hotel discounts and domestic lounge access"
+    ],
+    "benefits": [
+      "Travel",
+      "Lounge Access",
+      "Fuel"
+    ]
+  },
+  {
+    "name": "MakeMyTrip ICICI Bank Signature Credit Card",
+    "description": "Signature Credit Cards from ICICI Bank and MakeMyTrip Card are designed to complement your lifestyle. Our products extend several offers ranging from travel.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Travel",
+      "Lounge Access",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Manchester United Signature Credit Card",
+    "description": "ICICI Bank Manchester United Signature Credit Card",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/manchester-signature-card",
+    "rewards": [],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Parakram Select Credit Card - Apply Now",
+    "description": "Rubyx Credit Card: Apply online for Rubyx credit card at ICICI Bank and enjoy the privileges such as ✓Lifestyle. ✓Dining & Golf. ✓Travel Benefits. ✓Free Movie Tickets.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/parakram-cards/parakram-select",
+    "rewards": [],
+    "benefits": [
+      "Travel",
+      "Dining",
+      "Fuel",
+      "Entertainment"
+    ]
+  },
+  {
+    "name": "Platinum Chip Credit Card - Benefits, Features & Fees",
+    "description": "The ICICI Bank Platinum Chip Credit Card offers great value with benefits like anti-fraud protection, payback rewards, fuel surcharge waiver, and more. Easy to manage and no-frills.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Fuel"
+    ]
+  },
+  {
+    "name": "Prequalify Credit Cards",
+    "description": "Check your eligibility and prequalify credit cards with ICICI Bank. Explore pre-approved credit card offers, credit card preapprovals, and enjoy quick approval with minimal documentation",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/pre-approved-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "RuPay Credit Card",
+    "description": "Apply for ICICI Bank RuPay Credit Card Online – enjoy seamless payments, UPI-link convenience, nationwide acceptance and secure banking experience with tailored features.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-rupay-card",
+    "rewards": [],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Times Black ICICI Bank Credit Card",
+    "description": "Get dining discounts, movie offers, and free memberships with the Times Black ICICI Bank Credit Card. Start saving on your lifestyle expenses. Apply now!",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-pages/header/credit-card-d.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+    "rewards": [
+      "Get dining discounts"
+    ],
+    "benefits": [
+      "Lounge Access",
+      "Dining",
+      "Entertainment",
+      "Lifestyle"
+    ]
+  }
+]
