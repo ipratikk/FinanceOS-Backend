@@ -1,0 +1,5 @@
+node_modules/
+scratch/
+output/raw/
+.env
+.DS_Store

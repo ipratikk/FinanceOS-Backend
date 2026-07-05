@@ -1,0 +1,302 @@
+[
+  {
+    "bank": "ICICI",
+    "id": "amazon-pay-credit-card",
+    "name": "Amazon Pay Credit Card",
+    "description": "Apply for the Amazon Pay ICICI Bank Credit Card and enjoy cashback on every purchase. Unlock exclusive rewards and start saving instantly.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/cards/amazon/amazon-card-banner.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Markup at 1.99%",
+      "Unlimited Rewards",
+      "Unlimited Rewards",
+      "Fuel surcharge waiver"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "coral-credit-card",
+    "name": "Coral Credit Card",
+    "description": "Apply for the ICICI Bank HPCL Coral Credit Card and get 25% cashback on fuel spends. Enjoy fuel savings, rewards, and exclusive lifestyle benefits.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank-revamp/images/cards/hpcl-coral/coral-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Fuel surcharge waiver",
+      "25% off up to ₹100",
+      "Fuel surcharge waiver"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "csk-credit-card",
+    "name": "CSK Credit Card",
+    "description": "Get the Chennai Super Kings Credit Card by ICICI Bank & enjoy exclusive benefits, rewards, and exciting offers for loyal fans. Apply now!",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/credit-card/csk/csk-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/csk-card",
+    "rewards": [],
+    "benefits": [
+      "Meet and Greet",
+      "Autographed merchandise",
+      "Annually",
+      "25% off up to ₹100",
+      "Complimentary tickets"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "emeralde-credit-card",
+    "name": "Emeralde Credit Card",
+    "description": "Upgrade to a premium lifestyle with the ICICI Bank Emeralde Credit Card—featuring unlimited lounge access, golf sessions, movie offers, travel benefits, and reward points.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank-revamp/credit-card/desktop/emeralde.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Unlimited access",
+      "Up to 4 rounds",
+      "Four times every month",
+      "Birthday Benefit",
+      "Twice every year"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "expressions-credit-card",
+    "name": "Expressions Credit Card",
+    "description": "Expressions Credit Card - Personalise your card with unique designs. Enjoy rewards, complimentary lounge access, fuel waivers, and discounts on movies. ",
+    "image": "https://www.icici.bank.in/content/dam/icicibank-revamp/credit-card/desktop/expressions-desk.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/expressions-card",
+    "rewards": [],
+    "benefits": [
+      "175+ pre-installed templates",
+      "25% off, up to ₹100",
+      "Quarterly",
+      "Fuel Surcharge Waiver"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "hpcl-super-saver",
+    "name": "Hpcl Super Saver",
+    "description": "Apply for the ICICI Bank HPCL Super Saver Credit Card and get 5% cashback on fuel spends. Enjoy fuel savings, rewards, and exclusive lifestyle benefits.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank-revamp/credit-card/desktop/hpcl-supersaver.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+    "rewards": [],
+    "benefits": [
+      "Joining Benefits",
+      "Fuel cost savings",
+      "24/7 Roadside Assistance",
+      "25% off up to ₹100",
+      "Quarterly"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "makemytrip-icici-credit-card",
+    "name": "Makemytrip Icici Credit Card",
+    "description": "Unlock exclusive travel perks with the MakeMyTrip ICICI Bank Credit Card. Get 6% myCash travel, MMTBLACK Gold membership, and low forex markup fees.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/cards/mmt-credit-card/makemytrip-desk-banner.png",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/makemytrip-icici-credit-card",
+    "rewards": [],
+    "benefits": [
+      "One year",
+      "Annually",
+      "Quarterly",
+      "25% off up to ₹150",
+      "international transactions"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "manchester-united-platinum-credit-card",
+    "name": "Manchester United Platinum Credit Card",
+    "description": "Get the ICICI Bank Manchester United Platinum Credit Card. Enjoy exclusive football rewards, lounge access, and dining discounts. Apply for your card today!",
+    "image": "https://www.icici.bank.in/content/dam/icicibank-revamp/images/cards/manchester-united/manchester-platinum-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/manchester-platinum-card",
+    "rewards": [],
+    "benefits": [
+      "Welcome Gift",
+      "Top spender",
+      "Manchester United Merchandise",
+      "Quarterly",
+      "Fuel Surcharge Waiver"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "manchester-united-signature-credit-card",
+    "name": "Manchester United Signature Credit Card",
+    "description": "ICICI Bank Manchester United Signature Credit Card",
+    "image": "https://www.icici.bank.in/content/dam/icicibank-revamp/images/cards/manchester-united/manchester-signature-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/manchester-signature-card",
+    "rewards": [],
+    "benefits": [
+      "Manchester United Merchandise",
+      "Top spender",
+      "Upto 10% discount",
+      "Quarterly",
+      "25% off up to ₹150"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "parakram-credit-card",
+    "name": "Parakram Credit Card",
+    "description": "Experience a world of unlimited rewards and benefits with ICICI Bank's Parakram Credit Card. Apply now and take your finances to new heights!",
+    "image": "https://www.icici.bank.in/content/dam/icicibank-revamp/credit-card/desktop/parakram-select.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/parakram-cards/parakram",
+    "rewards": [],
+    "benefits": [
+      "Title Embossing",
+      "Quarterly Access",
+      "Insurance Benefits",
+      "Up to ₹20 lakhs",
+      "Fuel surcharge waiver"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "platinum-card",
+    "name": "Platinum Card",
+    "description": "Apply for Adani One ICICI Bank Platinum Credit Card & get complimentary domestic lounge visits per year. Enjoy hotel vouchers, lounge access & airport benefits",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/credit-card/platinum-chip/platinum-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/platinum-card",
+    "rewards": [],
+    "benefits": [
+      "Premium lounge upgrades",
+      "Annually",
+      "Annually",
+      "Quarterly",
+      "Porter services"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "platinum-chip-credit-card",
+    "name": "Platinum Chip Credit Card",
+    "description": "The ICICI Bank Platinum Chip Credit Card offers great value with benefits like anti-fraud protection, payback rewards, fuel surcharge waiver, and more. Easy to manage and no-frills.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/credit-card/platinum-chip/platinum-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Fuel surcharge waiver",
+      "Easy EMI Conversion",
+      "Redeem reward points"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "platinum-credit-card",
+    "name": "Platinum Credit Card",
+    "description": "Travel smarter with the MakeMyTrip ICICI Bank Platinum Card. Earn myCash on every spend, get exclusive hotel discounts and domestic lounge access. No annual fee!",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/credit-card/platinum-chip/platinum-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Welcome Voucher",
+      "Milestone Rewards",
+      "Quarterly",
+      "Annually",
+      "Fuel Surcharge Waiver"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "rubyx-credit-card",
+    "name": "Rubyx Credit Card",
+    "description": "Apply online for the ICICI Bank Rubyx Credit Card and enjoy premium travel, lifestyle, dining, and entertainment privileges with exclusive rewards..",
+    "image": "https://www.icici.bank.in/content/dam/icicibank-revamp/credit-card/desktop/rubyx-02.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Vouchers worth over ₹5,000",
+      "Quarterly",
+      "Annually",
+      "2 complimentary rounds of golf",
+      "25% off up to ₹150"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "rupay-credit-card",
+    "name": "Rupay Credit Card",
+    "description": "Apply for ICICI Bank RuPay Credit Card Online – enjoy seamless payments, UPI-link convenience, nationwide acceptance and secure banking experience with tailored features.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/cards/sapphiro-credit-card/sapphiro-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/rupay-credit-card",
+    "rewards": [],
+    "benefits": [
+      "UPI transactions",
+      "Accepted pan-India",
+      "Applicable variants",
+      "Quarterly",
+      "HPCL petrol pumps"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "sapphiro-credit-card",
+    "name": "Sapphiro Credit Card",
+    "description": "Apply online for the ICICI Bank Sapphiro Credit Card and enjoy airport lounge access, welcome vouchers, milestone rewards, BookMyShow discounts, and concierge services.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/cards/sapphiro-credit-card/sapphiro-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+    "rewards": [],
+    "benefits": [
+      "Vouchers worth over ₹13,000",
+      "Annually",
+      "Quarterly",
+      "Twice every month",
+      "Up to ₹3 crore"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "signature-credit-card",
+    "name": "Signature Credit Card",
+    "description": "Signature Credit Cards from ICICI Bank and MakeMyTrip Card are designed to complement your lifestyle. Our products extend several offers ranging from travel.",
+    "image": "https://www.icici.bank.in/content/dam/icicibank-revamp/images/cards/adani-one/adani-one-signature-desktop.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Membership",
+      "International Airport Lounge access",
+      "Domestic Airport Lounge Access",
+      "Railway Lounge Access",
+      "Milestone Rewards"
+    ]
+  },
+  {
+    "bank": "ICICI",
+    "id": "times-black-credit-card",
+    "name": "Times Black Credit Card",
+    "description": "Get dining discounts, movie offers, and free memberships with the Times Black ICICI Bank Credit Card. Start saving on your lifestyle expenses. Apply now!",
+    "image": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/cards/credit-card/times-black-banner.webp",
+    "applyLink": "https://buy.icici.bank.in/cap-v2/utm?iup=UCC00476&ius=IDPEDUCONST",
+    "detailsLink": "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+    "rewards": [],
+    "benefits": [
+      "Elite Club",
+      "Curated Luxury Services",
+      "Unlimited Domestic Lounge Access",
+      "Unlimited International Lounge Access",
+      "Gourmet Indulgence"
+    ]
+  }
+]
