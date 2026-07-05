@@ -1,0 +1,14 @@
+{
+  "name": "financeos-card-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "hdfc": "node runners/run-hdfc.js",
+    "icici": "node runners/run-icici.js",
+    "scrape": "node scripts/scrape-and-report.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0",
+    "cheerio": "^1.1.2"
+  }
+}

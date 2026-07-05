@@ -112,6 +112,7 @@ FinanceOS-Backend/
 │   └── generate_api_docs.py   # Regenerates docs/API.md from typedefs.graphql
 ├── .githooks/
 │   └── pre-commit             # Runs generate_api_docs.py on every commit
+├── card-scraper/               # Offline tool: scrapes bank credit-card catalogs (not a runtime service)
 ├── docker-compose.yml
 └── bootstrap.sh               # First-time setup script
 ```

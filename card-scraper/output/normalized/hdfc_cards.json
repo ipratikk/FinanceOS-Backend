@@ -1,0 +1,1048 @@
+[
+  {
+    "bank": "HDFC",
+    "id": "millennia-credit-card",
+    "name": "Millennia Credit Card",
+    "description": "",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/millennia-credit-card/images/millennia-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_millenia_CC_Cat_pg_apply_online&icid=website_organic_millenia_CC_Cat_pg_apply_online#nbb",
+    "detailsLink": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+    "rewards": [
+      "5% Cashback On Amazon, Flipkart, Myntra, Swiggy, Zomato And More.",
+      " ₹1000 Worth Gift Voucher On Spends Of ₹1 Lakh Per Calendar Quarter",
+      "Get 10% Additional Discount On Swiggy Dineout"
+    ],
+    "benefits": [
+      "Lifestyle",
+      "Food",
+      "Shopping",
+      "Entertainment"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "moneyback--credit-card",
+    "name": "MoneyBack+ Credit Card",
+    "description": "The Most Rewarding Card for Household Spends",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/moneyback-plus-credit-card/images/moneyback-plus-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_prodPg_applynow_moneybackplus_CC&icid=website_organic:prodPg_applynow:moneybackplus#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/moneyback-plus-credit-card.html",
+    "rewards": [
+      "10x Cashpoints(2.5% Valueback) At Select Merchants",
+      "Gift Voucher Worth Upto ₹500 On Spends On ₹50,000 Per Calendar Quarter",
+      "10% Additional Discount On Swiggy Dineout"
+    ],
+    "benefits": [
+      "Lifestyle",
+      "Shopping"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "indianoil-credit-card",
+    "name": "IndianOil Credit Card",
+    "description": "",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/iocl.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?channelsource=iocl&LGCode=MKTG&mc_id=website_organic_CatPg_applynow_IOCL_CC&icid=website_organic:CatPg_applynow:IOCL_CC#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/indianoil-hdfc-bank-credit-card.html",
+    "rewards": [
+      "Earn Up To 50 Litres Of Free Fuel Annually",
+      "Earn 5% Of Your Spends As Fuel Points At Indianoil Outlets",
+      "Earn 5% Of Your Spends As Fuel Points On Groceries And Bill Payments"
+    ],
+    "benefits": [
+      "Fuel"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "pixel-play-credit-card",
+    "name": "Pixel Play Credit Card",
+    "description": "The Born Digital Range of Credit Cards ",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/pixel-play-b.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=ZETA&LGCode=MKTG&mc_id=website_cc_cat_pg_pixel_play_accordion_apply&icicd=website_cc_cat_pg_pixel_play_accordion_apply#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/pixel-play-credit-card.html",
+    "rewards": [
+      "Up To 5% Cashback On Select Categories ",
+      "Customisable Design & Billing Cycle",
+      "Manage Card Easily On Payzapp "
+    ],
+    "benefits": [
+      "Shopping",
+      "Dining"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "freedom-credit-card",
+    "name": "Freedom Credit Card",
+    "description": "",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/freedom-credit-card/freedom-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_CC_CatPg_applyonline_Freedomcc&icid=website_organic_CC_CatPg_applyonline_Freedomcc#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/freedom-credit-card.html",
+    "rewards": [
+      "10x Cashpoints On Select Merchants",
+      "Get Additional 10% Off Via Swiggy Dineout",
+      "Up To 50 Days Of Interest Free Period"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "swiggy-hdfc-bank-credit-card",
+    "name": "Swiggy HDFC Bank Credit Card",
+    "description": "Delightful Rewards. Ready For You",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/images/card-facia-swiggy.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/swiggy-hdfc-bank-credit-card.html",
+    "rewards": [
+      "10% Cashback On Swiggy App",
+      "3 Months Swiggy One Membership",
+      "5% Cashback On Amazon, Flipkart And 100s Of Merchants"
+    ],
+    "benefits": [
+      "Dining",
+      "Shopping"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "infinia-metal-edition",
+    "name": "INFINIA Metal Edition",
+    "description": "By Invite Only",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/images/infinia-credit-card.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/infinia-credit-card.html",
+    "rewards": [
+      "Complimentary Club Marriott Membership",
+      "Stay & Dining Benefits At Itc Hotels",
+      "7 Global Personal Concierge Service"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "diners-club-black-metal-edition-credit-card",
+    "name": "Diners Club Black Metal Edition Credit Card",
+    "description": "Global Belonging, Ready for You. ",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-club-black-credit-card/diners-club-black.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?utm_content=MKTG&mc_id=website_dc_black_metal&icid=website_dc_black_metal#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/diners-club-black-metal-edition-credit-card.html",
+    "rewards": [
+      "10,000 Points On Quarterly Spends Of ₹4l ",
+      "6 Complimentary Golf Games",
+      "Unlimited Airport Lounge Access"
+    ],
+    "benefits": [
+      "Shopping",
+      "Travel",
+      "Dining"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "tata-neu-plus-credit-card",
+    "name": "Tata Neu Plus Credit Card",
+    "description": "Extraordinary Rewards, Ready for You.",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/tata-neu-p.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=TDCC&Lgcode=MKTG&mc_id=website&icid=website#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/tata-neu-plus-hdfc-bank-credit-card.html",
+    "rewards": [
+      "2% Back As Neucoins On Tata Neu And Partner Tata Brand Spends",
+      "Additional 5% Back As Neucoins On Selected Tata Neu Spends, Post Registering For Tata Neupass",
+      "1% Back As Neucoins On Other Eligible Non Upi Spends"
+    ],
+    "benefits": [
+      "Lifestyle",
+      "Shopping",
+      "Travel"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "marriott-bonvoy-hdfc-bank-credit-card",
+    "name": "Marriott Bonvoy HDFC Bank Credit Card",
+    "description": "UNMATCHED LUXURY. READY FOR YOU.",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/marriott-bonvoy-credit/images/Card-Facia-Marriott-Bonvoy.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=MRTB&DEDUPE=N&LGcode=MKTG&mc_id=website_organic_marriott_CC_Cat_pg_apply_online&icid=website_organic_marriott_CC_Cat_pg_apply_online#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/marriott-bonvoy-credit-card.html",
+    "rewards": [
+      "Complimentary Stay At Marriott Bonvoy",
+      "Earn Up To 15,000 Points",
+      "Marriott Bonvoy Silver Elite Status"
+    ],
+    "benefits": [
+      "Travel",
+      "Lifestyle",
+      "Dining"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "irctc-hdfc-bank-credit-card",
+    "name": "IRCTC HDFC Bank Credit Card",
+    "description": "There's a train ride in every swipe",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/irctc-credit-card/images/Card-Facia-IRCTC.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=IRCT?LGCode=MKTG&mc_id=website_organic_irctc_CC_Cat_pg_apply_online&icid=website_organic_irctc_CC_Cat_pg_apply_online#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/irctc-credit-card.html",
+    "rewards": [
+      "5 Reward Points On Irctc Website And App",
+      "Gift Voucher Worth ₹500",
+      "Complimentary Access To Irctc Executive Lounge"
+    ],
+    "benefits": [
+      "Travel",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "diners-club-privilege-credit-card",
+    "name": "Diners Club Privilege Credit Card",
+    "description": "Global Belonging Ready for You",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-privilege-credit-card/images/diners-club-privilege.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=DINE&LGcode=MKTG&mc_id=website_dc_privilege&icid=website_dc_privilege#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/diners-privilege-credit-card.html",
+    "rewards": [
+      "‘buy One, Get One’ On  Bookmyshow",
+      "5x Reward Points On Swiggy & Zomato",
+      "8 Free Airport Lounge Access Worldwide"
+    ],
+    "benefits": [
+      "Lifestyle",
+      "Dining",
+      "Entertainment"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "tata-neu-infinity-hdfc-bank-credit-card",
+    "name": "Tata Neu Infinity HDFC Bank Credit Card",
+    "description": "Extraordinary Rewards. Ready for You.",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/tata-neu-i.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=TDCC&Lgcode=MKTG&mc_id=website_catpage&icid=website_catpage#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/tata-neu-infinity-hdfc-bank-credit-card.html",
+    "rewards": [
+      "5% Back As Neucoins On Tata Neu And Partner Tata Brand Spends",
+      "Additional 5% Back As Neucoins On Selected Tata Neu Spends, Post Registering For Tata Neupass",
+      "1.5% Back As Neucoins On Other Eligible Non Upi Spends"
+    ],
+    "benefits": [
+      "Lifestyle",
+      "Shopping",
+      "Travel"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "shoppers-stop-black-hdfc-bank-credit-card",
+    "name": "Shoppers Stop Black HDFC Bank Credit Card",
+    "description": "Rewarding Style. Ready for You",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/shoppers-stop-black-hdfc-bank-credit-card/images/shoppers-stop-black-hdfc-bank-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=FCBH&DEDUPE=N&LGcode=MKTG&mc_id=website_catpage&icid=website_catpage#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/shoppers-stop-black-credit-card.html",
+    "rewards": [
+      "7% Reward Points On Shoppers Stop Purchases",
+      "Welcome Voucher Worth ₹1,500",
+      "Shoppers Stop Black Membership"
+    ],
+    "benefits": [
+      "Shopping"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "shoppers-stop-hdfc-bank-credit-card",
+    "name": "Shoppers Stop HDFC Bank Credit Card",
+    "description": "Rewarding Style, Ready for you",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/shoppers-stop-credit-card/Images/Card-Facia-Shoppers-Stop-Blue.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=FCBH&DEDUPE=N&LGcode=MKTG&mc_id=website_catpage&icid=website_catpage#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/shoppers-stop-credit-card.html",
+    "rewards": [
+      "3% Reward Points On Shoppers Stop Purchases",
+      "Welcome Voucher Worth ₹500",
+      "Shoppers Stop Silver Edge Membership"
+    ],
+    "benefits": [
+      "Shopping"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "paytm-hdfc-bank-select-credit-card",
+    "name": "Paytm HDFC Bank Select Credit Card",
+    "description": "CashBack on Every Purchase",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "https://paytm.com/offer/paytm-hdfc-bank-select-credit-card?shortlink=2t2cdyrf&is_retargeting=true&c=HDFC_DIGITAL_Asset_Consumer_Affluent&pid=HDFC_BANK&source_caller=ui",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/paytm-select-credit-card.html",
+    "rewards": [
+      "Up To 5% Cashback On Every Purchase",
+      "Paytm First Membership",
+      "8 Free Airport Lounge Accesses"
+    ],
+    "benefits": [
+      "Reward Points",
+      "Co Brand Benefits",
+      "Online Spends"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "paytm-hdfc-bank-credit-card",
+    "name": "Paytm HDFC Bank Credit Card",
+    "description": "Unlimited CashBack Every Time",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "https://paytm.com/offer/paytm-hdfcbank-cc?shortlink=CM&is_retargeting=true&c=HDFC_DIGITAL_Asset_Consumer_Mass&pid=HDFC_BANK&source_caller=unknown",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/paytm-credit-card.html",
+    "rewards": [
+      "Up To 3% Cashback On Every Purchase",
+      "Paytm First Membership",
+      "Upto 50 Days Of Credit Free Period"
+    ],
+    "benefits": [
+      "Reward Points",
+      "Co Brand Benefits",
+      "Online Spends"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "paytm-hdfc-bank-mobile-credit-card",
+    "name": "Paytm HDFC Bank Mobile Credit Card",
+    "description": "Your Mobile is Your Credit Card ",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "https://paytm.com/",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/paytm-mobile-credit-card.html",
+    "rewards": [
+      "Up To 2% Unlimited Cashback",
+      "Upgrade To A Paytm Hdfc Bank Credit Card",
+      "Easy Card Customisation"
+    ],
+    "benefits": [
+      "Reward Points",
+      "Co Brand Benefits",
+      "Online Spends"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "pixel-go-credit-card",
+    "name": "Pixel Go Credit Card",
+    "description": "The Born Digital Range of Credit Cards",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/pixel-go.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=ZETA&LGCode=MKTG",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/pixel-go-credit-card.html",
+    "rewards": [
+      "1% Cashback On Select Transactions",
+      "Shop Now, Pay Later In Emis",
+      "25% Off On Restaurants Via Swiggy Dineout"
+    ],
+    "benefits": [
+      "Shopping",
+      "Dining",
+      "Entertainment"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "hdfc-bank-upi-rupay-credit-card",
+    "name": "HDFC Bank UPI RuPay Credit Card",
+    "description": "",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/upi-rupay.png",
+    "applyLink": "https://mycards.hdfc.bank.in/?redirect_url=%2F/dualcard?type=rupayCard%3FfeatureType%3DrupayCard&type=rupayCard&productType=CC&cardNum",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/hdfc-bank-upi-rupay-credit-card.html",
+    "rewards": [
+      "Up To 3% Cashpoints On Daily, Utility & Other Spends ",
+      "Interest Free Credit Period ",
+      "Renewal Fee Waiver  "
+    ],
+    "benefits": ""
+  },
+  {
+    "bank": "HDFC",
+    "id": "paytm-hdfc-bank-digital-credit-card",
+    "name": "Paytm HDFC Bank Digital Credit Card",
+    "description": "Digital Experience Curated for You",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "/content/hdfcbankpws/in/en/coming-soon.html",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/paytm-digital-credit-card.html",
+    "rewards": [
+      "Up To 2% Cashback On Scan & Pay",
+      "Card Personalisation As Per Preference",
+      "Fuel Surcharge Waiver"
+    ],
+    "benefits": [
+      "Reward Points",
+      "Co Brand Benefits",
+      "Online Spends"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "easy-emi-card",
+    "name": "Easy EMI Card",
+    "description": "Live Better Every Day.",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/easy-emi/images/easy-emi-credit-card.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/blogs/easyemi.html",
+    "rewards": [
+      "5% Cashback On Amazon, Flipkart & More",
+      "Fuel Surcharge Waiver",
+      "Gift Vouchers Worth ₹1000"
+    ],
+    "benefits": [
+      "Shopping"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "hdfc-bank-times-card-credit-platinum",
+    "name": "HDFC Bank Times Card Credit Platinum",
+    "description": "Great Times Ready for You",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/platinum-times-credit-card/images/platinum-times-credit-card.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/platinum-times-credit-card.html",
+    "rewards": [
+      "Free Annual Membership Valued At ₹999",
+      "Up To 20% Off On Travel & Shopping",
+      "50% Off On Movie Tickets"
+    ],
+    "benefits": [
+      "Co Brand Benefits",
+      "Rewards"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "hdfc-bank-times-card-credit",
+    "name": "HDFC Bank Times Card Credit",
+    "description": "",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/titanium-times-card-credit-card/images/titanium-times-card-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_times_CC_Cat_pg_applyonline&icid=website_organic_times_CC_Cat_pg_applyonline#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/titanium-times-card-credit-card.html",
+    "rewards": [
+      "Free Annual Membership Valued At ₹999",
+      "50% Off On Movie Tickets At Bookmyshow",
+      "3 Reward Points For Every ₹150 Spent"
+    ],
+    "benefits": [
+      "Co Brand Benefits",
+      "Rewards"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "all-miles-credit-card",
+    "name": "All Miles Credit Card",
+    "description": "Save on Every Mile",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/all-miles-credit-card.html",
+    "rewards": [
+      "Access To Over 600 Premium Airport Lounges ",
+      "3 Reward Points For Every ₹150 Spent ",
+      "Fuel Surcharge Waiver "
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "bharat-credit-card",
+    "name": "Bharat Credit Card",
+    "description": "CashBack for Enhanced Savings",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/bharat-credit-card.html",
+    "rewards": [
+      "5% Cashback On Irctc, Bill Payments & Fuel",
+      "Up To 50 Days Of Interest Free Period",
+      "Revolving Credit At Nominal Rates"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "diners-club-premium-credit-card",
+    "name": "Diners Club Premium Credit Card",
+    "description": "Exclusive Experience for You",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/diners-club-premium-credit-card.html",
+    "rewards": [
+      "Complimentary Access To 1000+ Lounges Worldwide",
+      "Insurance Cover Up To ₹1 Crore*",
+      "Up To 5% Cashback On Smartbuy"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "diners-club-rewardz-credit-card",
+    "name": "Diners Club Rewardz Credit Card",
+    "description": "More Rewards on Purchases",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/diners-club-rewardz-credit-card.html",
+    "rewards": [
+      "Up To 5% Cashback On Smartbuy",
+      "Welcome & Renewal Benefits Of 1000 Points",
+      "24x7 Concierge Service"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "doctor-s-regalia-credit-card",
+    "name": "Doctor's Regalia Credit Card",
+    "description": "Safety and Convenience Ready for You",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/doctors-regalia-credit-card.html",
+    "rewards": [
+      "Insurance Coverage Up To ₹20 Lakh* ",
+      "15,000 Reward Points On ₹8 Lakh Spends* ",
+      "Complimentary Airport Lounge Access "
+    ],
+    "benefits": [
+      "Insurance",
+      "Travel"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "doctors-superia-credit-card",
+    "name": "Doctors Superia Credit Card",
+    "description": "Designed for Exclusive Experience",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/doctors-superia-credit-card.html",
+    "rewards": [
+      "3 Reward Points For Every 200 Spent",
+      "50% More Points On Dining Out",
+      "Welcome & Renewal Benefits"
+    ],
+    "benefits": [
+      "Lifestyle ",
+      "Travel"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "jetprivilege-hdfc-bank-select---titanium",
+    "name": "JetPrivilege HDFC Bank Select / Titanium",
+    "description": "Flying Experience Made Rewarding",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/jetprivilege-titanium-credit-card.html",
+    "rewards": [
+      "Welcome & Renewal Benefits Worth ₹250",
+      "Fuel Surcharge Waiver",
+      "Add On Cards For Your Family"
+    ],
+    "benefits": [
+      "Travel"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "platinum-edge-credit-card",
+    "name": "Platinum Edge Credit Card",
+    "description": "Earn CashBack and Extra Points on Dining ",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/platinum-edge-credit-card.html",
+    "rewards": [
+      "2 Reward Points For Every ₹200 Spent ",
+      "50% Extra Points On Dining Out ",
+      "Fuel Surcharge Waiver "
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "platinum-plus-credit-card",
+    "name": "Platinum Plus Credit Card",
+    "description": "More Rewards and Fuel Surcharge Waivers",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/platinum-plus-credit-card.html",
+    "rewards": [
+      "2 Reward Points For Every ₹200 Spent",
+      "Up To 3 Add On Cards",
+      "Fuel Surcharge Waiver"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "solitaire-credit-card",
+    "name": "Solitaire Credit Card",
+    "description": "Exclusive Rewards and Shopping Vouchers ",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/solitaire-credit-card.html",
+    "rewards": [
+      "3 Reward Points For Every ₹200 Spent",
+      "Shopping Vouchers Worth ₹1,000",
+      "Fuel Surcharge Waiver"
+    ],
+    "benefits": [
+      "Lifestyle",
+      "Shopping"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "superia-credit-card",
+    "name": "Superia Credit Card",
+    "description": "Fly More and Earn Dining Rewards",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/superia-credit-card.html",
+    "rewards": [
+      "Save On Domestic Flights With Air India & More",
+      "Welcome & Renewal Benefits",
+      "50% Extra Points On Dining Out"
+    ],
+    "benefits": [
+      "Lifestyle",
+      "Travel"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "teachers-platinum-credit-card",
+    "name": "Teachers Platinum Credit Card",
+    "description": "Special Weekend and Utility Bill Rewards",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/teachers-platinum-credit-card.html",
+    "rewards": [
+      "500 Reward Points On Teacher's Day* ",
+      "Pay Utility Bills With Smartpay ",
+      "3x Reward Points On Weekends"
+    ],
+    "benefits": [
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "titanium-edge-credit-card-",
+    "name": "Titanium Edge Credit Card ",
+    "description": "CashBack & Dining Rewards Combined ",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/titanium-edge-credit-card.html",
+    "rewards": [
+      "Cashback Deals On Daily Purchases ",
+      "Up To 50 Days Of Interest Free Period ",
+      "50% More Points At Premium Restaurants "
+    ],
+    "benefits": [
+      "Dining",
+      "Fuel"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "visa-signature-credit-card",
+    "name": "Visa Signature Credit Card",
+    "description": "Global Lounge Access with Fuel Waivers",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/visa-signature-credit-card.html",
+    "rewards": [
+      "Access To Over 600+ Lounges Worldwide",
+      "2 Reward Points For Every ₹200 Spent ",
+      "Fuel Surcharge Waiver Up To ₹250 "
+    ],
+    "benefits": [
+      "Travel"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "world-mastercard-credit-card",
+    "name": "World MasterCard Credit Card",
+    "description": "Travel Round the Globe with Ease",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/world-mastercard-credit-card.html",
+    "rewards": [
+      "Complimentary Priority Pass Membership",
+      "Up To 3 Add On Cards For Family",
+      "2 Reward Points For Every ₹ 200 Spent"
+    ],
+    "benefits": [
+      "Travel"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "regalia-first-credit-card",
+    "name": "Regalia First Credit Card",
+    "description": "Curated Luxury Experience",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/regalia-first-credit-card.html",
+    "rewards": [
+      "Up To 15% Off At Partner Restaurants",
+      "Comprehensive Insurance Coverage*",
+      "Complimentary Priority Pass Membership"
+    ],
+    "benefits": [
+      "Travel",
+      "Dining ",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "diners-clubmiles-credit-card",
+    "name": "Diners ClubMiles Credit Card",
+    "description": "Travel in Style",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/diners-club-miles-credit-card.html",
+    "rewards": [
+      "Up To 6 Complimentary Lounge Access*",
+      "Air Accident Coverage Of ₹1 Crore",
+      "Up To 15% Off At Partner Restaurants"
+    ],
+    "benefits": [
+      "Travel ",
+      "Dining"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "regalia-credit-card",
+    "name": "Regalia Credit Card",
+    "description": "Flying Experience Made Comfortable",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/regalia-credit-card.html",
+    "rewards": [
+      "15,000 Reward Points On ₹8 Lakh Spends",
+      "International & Domestic Airport Lounge Access",
+      "24x7 Concierge Services"
+    ],
+    "benefits": [
+      "Lifestyle",
+      "Travel ",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "intermiles-hdfc-bank-diners-club-credit-card",
+    "name": "InterMiles HDFC Bank Diners Club Credit Card",
+    "description": "Welcome Bonuses & Travel Discounts",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/intermiles-diners-club-credit-card.html",
+    "rewards": [
+      "Welcome Bonus Of Up To 25,000 Intermiles",
+      "Free Intermiles Gold Tier Membership",
+      "Flight & Hotel Discount Vouchers Worth ₹5,000"
+    ],
+    "benefits": [
+      "Travel ",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "intermiles-hdfc-bank-signature-credit-card",
+    "name": "InterMiles HDFC Bank Signature Credit Card",
+    "description": "InterMiles Rewards and Silver Membership",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/intermiles-signature-credit-card.html",
+    "rewards": [
+      "Welcome Benefit Of Up To 8,000 Intermiles",
+      "6 Intermiles For Every ₹150 Spent",
+      "Free Intermiles Silver Tier Membership"
+    ],
+    "benefits": [
+      "Travel ",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "intermiles-hdfc-bank-platinum-credit-card",
+    "name": "InterMiles HDFC Bank Platinum Credit Card",
+    "description": "Travel More, Earn Rewards",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/intermiles-platinum-credit-card.html",
+    "rewards": [
+      "Welcome Benefit Of Up To 3,000 Intermiles",
+      "8 Complimentary Domestic Airport Lounges Access",
+      "Up To 20% Savings On Dining Out"
+    ],
+    "benefits": [
+      "Travel ",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "diners-club-black-credit-card",
+    "name": "Diners Club Black Credit Card",
+    "description": "Exclusivity Ready for You",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/diners-club-black-credit-card.html",
+    "rewards": [
+      "Free Annual Memberships To Club Marriott, Forbes & More",
+      "Up To 10x Rewards Points On Smartbuy ",
+      "Unlimited Free Access To Airport Lounges"
+    ],
+    "benefits": [
+      "Lifestyle",
+      "Travel ",
+      "Dining"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "moneyback-credit-card",
+    "name": "MoneyBack Credit Card",
+    "description": "More Rewards for More Savings",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/money-back-credit-card.html",
+    "rewards": [
+      "2 Reward Points For Every ₹200 Spent",
+      "Welcome Benefit Of 500 Cashpoints",
+      "Smartemi & Annual Spend Benefit"
+    ],
+    "benefits": [
+      "Lifestyle ",
+      "Travel "
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "regalia-gold-credit-card",
+    "name": "Regalia Gold Credit Card",
+    "description": "Experience the Golden Side of Life",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/regalia-gold-credit-card/images/regalia-gold-credit-card.png",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=RGCC&LGCode=MKTG&icid=website_organic_herobanner_regaliagoldcreditcard:banner:applynow#nbb",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/regalia-gold-credit-card.html",
+    "rewards": [
+      "Gift Voucher Worth ₹2,500*",
+      "Complimentary Memberships ",
+      "5x Reward Points On Top Brands "
+    ],
+    "benefits": [
+      "Shopping",
+      "Travel"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "hdfc-bank-h-o-g-diners-club-credit-card",
+    "name": "HDFC Bank H-O-G Diners Club Credit Card",
+    "description": "The card can be no longer applied.",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/harley-hog.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/coming-soon.html",
+    "rewards": [
+      "Annual Memberships To Club Marriott, Mmt Black, Etc.",
+      "Harley Vouchers Worth ₹2,500",
+      "10x Reward Points On Harley Purchases"
+    ],
+    "benefits": [
+      "Co Brand Benefits",
+      "Travel",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "hdfc-bank-harley-davidson-diners-club-credit-card",
+    "name": "HDFC Bank Harley-Davidson Diners Club Credit Card",
+    "description": "The card can be no longer applied.",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/harley.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/coming-soon.html",
+    "rewards": [
+      "Buy One, Get One Ticket Via Bookmyshow",
+      "5x Reward Points With Swiggy & Zomato",
+      "Harley Vouchers Worth ₹750"
+    ],
+    "benefits": [
+      "Co Brand Benefits",
+      "Food",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "bizblack-metal-edition-business-credit-card",
+    "name": "BizBlack Metal Edition Business Credit Card",
+    "description": "",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/business-credit-cards/bizblack-metal-edition.jpg",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=BIZC&LGCode=MKTG&mc_id=website_organic_catPg_applynow_BizBlack&icid=website_organic_catPg_applynow_BizBlack",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/business-credit-cards/biz-black-credit-card.html",
+    "rewards": [
+      "No Interest Up To 55 Days",
+      "5 Reward Points For Every ₹150 Spent",
+      "Complimentary Annual Club Marriott Membership"
+    ],
+    "benefits": [
+      "Travel & Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "bizfirst-business-credit-card",
+    "name": "BizFirst Business Credit Card",
+    "description": "",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/business-credit-cards/bizfirst.jpg",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=BIZC&LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_catPg_applynow_BizFirst&icid=website_organic_catPg_applynow_BizFirst",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/business-credit-cards/biz-first-credit-card.html",
+    "rewards": [
+      "Up To 3% Cashpoints On Emi, Utility & More",
+      "₹250 Gift Voucher On Card Activation",
+      "Save 20% Via Swiggy Dineout"
+    ],
+    "benefits": [
+      "Shopping",
+      "Fuel",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "pine-labs-hdfc-bank-credit-card",
+    "name": "Pine Labs HDFC Bank Credit Card",
+    "description": "India's Premier Business Credit Card for Rewards",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/diners-club-black-credit-card.html",
+    "rewards": [
+      "Up To 5% Reward Points On Business Essentials ",
+      "Up To 50 Days Of Free Credit Period",
+      "2500 Reward Points As Milestone Benefit"
+    ],
+    "benefits": [
+      "Travel ",
+      "Shopping",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "bizgrow-business-credit-card",
+    "name": "BizGrow Business Credit Card",
+    "description": "",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/business-credit-cards/bizgrow.jpg",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=BIZC&LGCode=MKTG&mc_id=website_organic_catPg_applynow_BizGrow&icid=website_organic_catPg_applynow_BizGrow",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/business-credit-cards/biz-grow-credit-card.html",
+    "rewards": [
+      "Business Insurance Benefits Up To ₹5 Lakh",
+      "2000 Cashpoints For ₹1 Lakh Quarterly Spends",
+      "1% Fuel Surcharge Waiver"
+    ],
+    "benefits": [
+      "Shopping",
+      "Fuel",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "bizpower-business-credit-card",
+    "name": "BizPower Business Credit Card",
+    "description": "",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/business-credit-cards/bizpower.jpg",
+    "applyLink": "https://applyonline.hdfc.bank.in/cards/credit-cards.html?CHANNELSOURCE=BIZC&LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_catPg_applynow_BizPower&icid=website_organic_catPg_applynow_BizPower",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/business-credit-cards/biz-power-credit-card.html",
+    "rewards": [
+      "5x Reward Points On Bill Payments",
+      "Free Amazon Prime Annual Membership & More",
+      "Domestic & International Airport Lounge Access"
+    ],
+    "benefits": [
+      "Travel",
+      "Shopping",
+      "Lifestyle"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "phonepe-hdfc-bank-ultimo-credit-card",
+    "name": "PhonePe HDFC Bank Ultimo Credit Card",
+    "description": "",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "https://www.phonepe.com/credit-cards/phonepe-hdfc-credit-card/?icid=website_organic_herobanner_phonepehdfcbankultimocreditcard:banner:applynow",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/phonepe-hdfc-bank-ultimo-credit-card.html",
+    "rewards": [
+      "10% Reward Points On Select Phonepe Categories",
+      "5% Reward Points On Select Online Brands",
+      "1% Reward Points On All Scan & Pay Transactions"
+    ],
+    "benefits": [
+      "Lifestyle",
+      "Food"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "phonepe-hdfc-bank-uno-credit-card",
+    "name": "PhonePe HDFC Bank Uno Credit Card",
+    "description": "",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "https://www.phonepe.com/credit-cards/phonepe-hdfc-credit-card/?icid=website_organic_herobanner_phonepehdfcbankultimocreditcard:banner:applynow",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/phonepe-hdfc-bank-uno-credit-card.html",
+    "rewards": [
+      "2% Reward Points On Select Phonepe Categories",
+      "1% Reward Points On Select Online Brands",
+      "1% Reward Points On All Scan & Pay Transactions"
+    ],
+    "benefits": [
+      "Lifestyle",
+      "Food"
+    ]
+  },
+  {
+    "bank": "HDFC",
+    "id": "regalia-activ-hdfc-bank-credit-card",
+    "name": "Regalia Activ HDFC Bank Credit Card",
+    "description": "India's Premier Business Credit Card for Rewards",
+    "image": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/card-facias/credit-card/card-facias-gen.png",
+    "applyLink": "",
+    "detailsLink": "/content/hdfcbankpws/in/en/personal-banking/credit-cards/regalia-activ-credit-card.html",
+    "rewards": [
+      "Upto 8 Complimentary Airport Lounge Access",
+      "Bonus 10,000 Reward Points On Rs. 5 Lakhs Spends",
+      "Earn 4 Reward Points On Every Rs.150 Spent On Retail Goods"
+    ],
+    "benefits": [
+      "Travel ",
+      "Shopping",
+      "Lifestyle"
+    ]
+  }
+]
