@@ -76,6 +76,12 @@ type ImportResult {
   ledger: Ledger!
 }
 
+type StatementPreview {
+  bankCode: String!
+  last4: String
+  transactionCount: Int!
+}
+
 input TransactionFilter {
   from: String
   to: String
@@ -113,6 +119,7 @@ type Query {
 
 type Mutation {
   uploadStatement(ledgerId: ID!, file: Upload!): ImportResult!
+  previewStatement(file: Upload!): StatementPreview!
   createLedger(input: CreateLedgerInput!): Ledger!
   updateLedger(id: ID!, input: UpdateLedgerInput!): Ledger!
   deleteLedger(id: ID!): Boolean!

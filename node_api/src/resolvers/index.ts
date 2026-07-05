@@ -3,6 +3,7 @@ import { bankResolvers } from './bank';
 import { ledgerResolvers } from './ledger';
 import { transactionResolvers } from './transaction';
 import { uploadResolvers } from './upload';
+import { previewResolvers } from './preview';
 import { analyticsResolvers } from './analytics';
 
 export const resolvers = {
@@ -19,6 +20,7 @@ export const resolvers = {
     ...ledgerResolvers.Mutation,
     ...transactionResolvers.Mutation,
     ...uploadResolvers.Mutation,
+    ...previewResolvers.Mutation,
   },
   Bank: bankResolvers.Bank,
   Ledger: ledgerResolvers.Ledger,

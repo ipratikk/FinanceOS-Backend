@@ -1,3 +1,5 @@
+import re
+
 from models.schemas import ParsedTransaction
 from parsers.base import BaseBankParser
 from parsers.utils import parse_amount, parse_date
@@ -9,6 +11,11 @@ class HDFCCardParser(BaseBankParser):
     def detect(self, content: bytes) -> bool:
         text = content.decode("utf-8", errors="ignore")
         return "~|~" in text and "Card No:" in text
+
+    def extract_last4(self, content: bytes) -> str | None:
+        text = content.decode("utf-8", errors="ignore")
+        match = re.search(r"Card No:.*?(\d{4})\D*$", text, re.MULTILINE)
+        return match.group(1) if match else None
 
     def parse(self, content: bytes) -> list[ParsedTransaction]:
         text = content.decode("utf-8", errors="ignore")

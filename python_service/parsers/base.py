@@ -12,3 +12,7 @@ class BaseBankParser(ABC):
     @abstractmethod
     def parse(self, content: bytes) -> list[ParsedTransaction]:
         """Parse file content and return list of transactions."""
+
+    def extract_last4(self, content: bytes) -> str | None:
+        """Return the last 4 digits of the card/account number, if present in the statement."""
+        return None

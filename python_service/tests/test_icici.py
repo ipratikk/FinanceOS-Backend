@@ -39,3 +39,12 @@ def test_icici_bank_credit_negative():
     txns = ICICIBankParser().parse(BANK_FIXTURE.read_bytes())
     credits = [t for t in txns if t.amount_minor_units < 0]
     assert len(credits) == 2  # Salary + Refund Credit deposits
+
+
+def test_icici_bank_extract_last4():
+    assert ICICIBankParser().extract_last4(BANK_FIXTURE.read_bytes()) == "1234"
+
+
+def test_icici_card_extract_last4_absent():
+    # icici_card.csv fixture has no card/account number line
+    assert ICICICardParser().extract_last4(CARD_FIXTURE.read_bytes()) is None
