@@ -1,6 +1,6 @@
 # FinanceOS API Reference
 
-> Auto-generated 2026-07-05 15:17 UTC from `node_api/src/schema/typedefs.graphql`. Do not edit manually.
+> Auto-generated 2026-07-05 16:42 UTC from `node_api/src/schema/typedefs.graphql`. Do not edit manually.
 
 ## Endpoint
 
@@ -78,6 +78,14 @@ _Upload a bank statement file (PDF or CSV) to import transactions. Uses `multipa
 - `file: Upload!`
 
 **Returns:** `ImportResult!`
+
+### `previewStatement`
+
+**Arguments:**
+
+- `file: Upload!`
+
+**Returns:** `StatementPreview!`
 
 ### `createLedger`
 _Create a new ledger under an existing bank._
@@ -219,6 +227,14 @@ _Wipe all banks, ledgers, and transactions. Irreversible._
 | `duplicates` | `Int!` |
 | `errors` | `[String!]!` |
 | `ledger` | `Ledger!` |
+
+### `StatementPreview`
+
+| Field | Type |
+|-------|------|
+| `bankCode` | `String!` |
+| `last4` | `String` |
+| `transactionCount` | `Int!` |
 
 ---
 

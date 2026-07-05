@@ -40,6 +40,7 @@ async def parse_file(
     return {
         "bank_code": parser.bank_code,
         "count": len(transactions),
+        "last4": parser.extract_last4(content),
         "transactions": [
             {
                 "postedAt": t.posted_at.isoformat(),

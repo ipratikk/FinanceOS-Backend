@@ -17,6 +17,7 @@ export interface ParsedTransaction {
 export interface ParseResponse {
   bank_code: string;
   count: number;
+  last4: string | null;
   transactions: ParsedTransaction[];
 }
 

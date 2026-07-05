@@ -37,3 +37,8 @@ def test_fingerprint_format():
     parts = t.source_fingerprint.split("|")
     assert len(parts) == 3
     assert parts[1] == t.description
+
+
+def test_extract_last4():
+    content = FIXTURE.read_bytes()
+    assert HDFCCardParser().extract_last4(content) == "1234"
