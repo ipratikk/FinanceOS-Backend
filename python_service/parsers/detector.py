@@ -1,3 +1,4 @@
+from pdfminer.pdfdocument import PDFPasswordIncorrect
 from parsers.base import BaseBankParser
 from parsers.hdfc_card import HDFCCardParser
 from parsers.hdfc_card_pdf import HDFCCardPDFParser
@@ -33,14 +34,29 @@ _PARSERS: list[BaseBankParser] = [
 _BY_CODE: dict[str, BaseBankParser] = {p.bank_code: p for p in _PARSERS}
 
 
-def detect_parser(content: bytes, bank_code: str | None = None) -> BaseBankParser | None:
-    """Return the appropriate parser. If bank_code given, use it directly."""
+def detect_parser(
+    content: bytes, bank_code: str | None = None, password: str | None = None
+) -> BaseBankParser | None:
+    """Return the appropriate parser. If bank_code given, use it directly.
+
+    Raises PDFPasswordIncorrect if at least one PDF parser recognized the
+    file as PDF-shaped but couldn't open it with the given password (or
+    none was given). This takes priority over returning None, since "needs
+    a password" and "not a supported format" are different outcomes the
+    caller must distinguish.
+    """
     if bank_code and bank_code in _BY_CODE:
         return _BY_CODE[bank_code]
+    needs_password = False
     for parser in _PARSERS:
         try:
-            if parser.detect(content):
+            if parser.detect(content, password=password):
                 return parser
+        except PDFPasswordIncorrect:
+            needs_password = True
+            continue
         except Exception:
             continue
+    if needs_password:
+        raise PDFPasswordIncorrect()
     return None

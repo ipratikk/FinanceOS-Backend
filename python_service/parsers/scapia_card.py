@@ -1,7 +1,8 @@
-import io
 import re
+from pdfminer.pdfdocument import PDFPasswordIncorrect
 from models.schemas import ParsedTransaction
 from parsers.base import BaseBankParser
+from parsers.pdf_utils import open_pdf
 from parsers.utils import parse_amount, parse_date
 
 # DD-MM-YYYY·HH:MM DESCRIPTION [+]₹AMOUNT [REWARD_POINTS]
@@ -13,24 +14,23 @@ _TX_RE = re.compile(
 class ScapiaCardParser(BaseBankParser):
     bank_code = "scapia_card"
 
-    def detect(self, content: bytes) -> bool:
+    def detect(self, content: bytes, password: str | None = None) -> bool:
         if content[:4] != b'%PDF':
             return False
         try:
-            import pdfplumber
-            with pdfplumber.open(io.BytesIO(content)) as pdf:
+            with open_pdf(content, password) as pdf:
                 text = (pdf.pages[0].extract_text() or "") if pdf.pages else ""
             return 'ScapiaCoins' in text or ('Scapia' in text and 'BillingCycle' in text)
+        except PDFPasswordIncorrect:
+            raise
         except Exception:
             return False
 
-    def parse(self, content: bytes) -> list[ParsedTransaction]:
-        import pdfplumber
-
+    def parse(self, content: bytes, password: str | None = None) -> list[ParsedTransaction]:
         results: list[ParsedTransaction] = []
         in_tx = False
 
-        with pdfplumber.open(io.BytesIO(content)) as pdf:
+        with open_pdf(content, password) as pdf:
             for page in pdf.pages:
                 text = page.extract_text() or ""
                 for line in text.splitlines():

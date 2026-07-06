@@ -1,7 +1,8 @@
-import io
 import re
+from pdfminer.pdfdocument import PDFPasswordIncorrect
 from models.schemas import ParsedTransaction
 from parsers.base import BaseBankParser
+from parsers.pdf_utils import open_pdf
 from parsers.utils import parse_amount, parse_date
 
 _V1_TX = re.compile(r'^(\d{2}/\d{2}/\d{4} \d{2}:\d{2}:\d{2})\s+(.+?)\s+([\d,]+\.\d{2})(Cr)?$')
@@ -12,17 +13,18 @@ _V2_DT = re.compile(r'^(\d{2}/\d{2}/\d{4})\|\s+(\d{2}:\d{2})\s+')
 class HDFCCardPDFParser(BaseBankParser):
     bank_code = "hdfc_card_pdf"
 
-    def detect(self, content: bytes) -> bool:
+    def detect(self, content: bytes, password: str | None = None) -> bool:
         if content[:4] != b'%PDF':
             return False
         try:
-            import pdfplumber
-            with pdfplumber.open(io.BytesIO(content)) as pdf:
+            with open_pdf(content, password) as pdf:
                 text = (pdf.pages[0].extract_text() or "") if pdf.pages else ""
             return (
                 ('HDFC' in text or 'Hdfc' in text)
                 and ('Card No' in text or 'Credit Card No.' in text)
             )
+        except PDFPasswordIncorrect:
+            raise
         except Exception:
             return False
 
@@ -97,10 +99,9 @@ class HDFCCardPDFParser(BaseBankParser):
             ))
         return results
 
-    def parse(self, content: bytes) -> list[ParsedTransaction]:
-        import pdfplumber
+    def parse(self, content: bytes, password: str | None = None) -> list[ParsedTransaction]:
         pages_text: list[str] = []
-        with pdfplumber.open(io.BytesIO(content)) as pdf:
+        with open_pdf(content, password) as pdf:
             for page in pdf.pages:
                 t = page.extract_text()
                 if t:

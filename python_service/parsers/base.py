@@ -6,11 +6,15 @@ class BaseBankParser(ABC):
     bank_code: str  # unique identifier, e.g. "hdfc_card"
 
     @abstractmethod
-    def detect(self, content: bytes) -> bool:
-        """Return True if this parser can handle the given file content."""
+    def detect(self, content: bytes, password: str | None = None) -> bool:
+        """Return True if this parser can handle the given file content.
+
+        Raises pdfminer.pdfdocument.PDFPasswordIncorrect if the content is an
+        encrypted PDF and `password` is missing or wrong.
+        """
 
     @abstractmethod
-    def parse(self, content: bytes) -> list[ParsedTransaction]:
+    def parse(self, content: bytes, password: str | None = None) -> list[ParsedTransaction]:
         """Parse file content and return list of transactions."""
 
     def extract_last4(self, content: bytes) -> str | None:

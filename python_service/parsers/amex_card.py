@@ -8,7 +8,7 @@ from parsers.utils import parse_amount, parse_date
 class AmexCardParser(BaseBankParser):
     bank_code = "amex_card"
 
-    def detect(self, content: bytes) -> bool:
+    def detect(self, content: bytes, password: str | None = None) -> bool:
         text = content.decode("utf-8", errors="ignore")
         reader = csv.reader(io.StringIO(text))
         rows = list(reader)
@@ -22,7 +22,7 @@ class AmexCardParser(BaseBankParser):
             and "amount" in header
         )
 
-    def parse(self, content: bytes) -> list[ParsedTransaction]:
+    def parse(self, content: bytes, password: str | None = None) -> list[ParsedTransaction]:
         text = content.decode("utf-8", errors="ignore")
         reader = csv.reader(io.StringIO(text))
         rows = list(reader)

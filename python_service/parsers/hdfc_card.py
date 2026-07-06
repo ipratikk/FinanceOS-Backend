@@ -8,7 +8,7 @@ from parsers.utils import parse_amount, parse_date
 class HDFCCardParser(BaseBankParser):
     bank_code = "hdfc_card"
 
-    def detect(self, content: bytes) -> bool:
+    def detect(self, content: bytes, password: str | None = None) -> bool:
         text = content.decode("utf-8", errors="ignore")
         return "~|~" in text and "Card No:" in text
 
@@ -17,7 +17,7 @@ class HDFCCardParser(BaseBankParser):
         match = re.search(r"Card No:.*?(\d{4})\D*$", text, re.MULTILINE)
         return match.group(1) if match else None
 
-    def parse(self, content: bytes) -> list[ParsedTransaction]:
+    def parse(self, content: bytes, password: str | None = None) -> list[ParsedTransaction]:
         text = content.decode("utf-8", errors="ignore")
         lines = text.splitlines()
 

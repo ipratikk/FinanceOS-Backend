@@ -8,11 +8,11 @@ from parsers.utils import parse_amount, parse_date
 class ICICICardParser(BaseBankParser):
     bank_code = "icici_card"
 
-    def detect(self, content: bytes) -> bool:
+    def detect(self, content: bytes, password: str | None = None) -> bool:
         text = content.decode("utf-8", errors="ignore").lower()
         return "billingamountsign" in text.replace(" ", "")
 
-    def parse(self, content: bytes) -> list[ParsedTransaction]:
+    def parse(self, content: bytes, password: str | None = None) -> list[ParsedTransaction]:
         text = content.decode("utf-8", errors="ignore")
         reader = csv.reader(io.StringIO(text))
         rows = list(reader)
