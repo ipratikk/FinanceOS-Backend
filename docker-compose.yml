@@ -35,6 +35,8 @@ services:
       DATABASE_URL: postgresql://financeOS:financeOS@postgres:5432/financeOS
       PYTHON_SERVICE_URL: http://python-parser:8000
       NODE_ENV: development
+      DATABASE_ENCRYPTION_KEY: ${DATABASE_ENCRYPTION_KEY}
+      IMPORT_PASSWORD_PRIVATE_KEY: ${IMPORT_PASSWORD_PRIVATE_KEY}
     depends_on:
       postgres:
         condition: service_healthy
@@ -48,6 +50,7 @@ services:
     environment:
       DATABASE_URL: postgresql://financeOS:financeOS@postgres:5432/financeOS
       REDIS_URL: redis://redis:6379
+      DATABASE_ENCRYPTION_KEY: ${DATABASE_ENCRYPTION_KEY}
     depends_on:
       postgres:
         condition: service_healthy
