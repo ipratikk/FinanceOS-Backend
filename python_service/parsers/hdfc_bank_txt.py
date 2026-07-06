@@ -6,11 +6,11 @@ from parsers.utils import parse_amount, parse_date
 class HDFCBankTXTParser(BaseBankParser):
     bank_code = "hdfc_bank_txt"
 
-    def detect(self, content: bytes) -> bool:
+    def detect(self, content: bytes, password: str | None = None) -> bool:
         text = content.decode("utf-8", errors="ignore").lower()
         return "narration" in text and "closing balance" in text
 
-    def parse(self, content: bytes) -> list[ParsedTransaction]:
+    def parse(self, content: bytes, password: str | None = None) -> list[ParsedTransaction]:
         text = content.decode("utf-8", errors="ignore")
         lines = text.splitlines()
 

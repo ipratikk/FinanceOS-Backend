@@ -6,6 +6,7 @@
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc && cp -r src/schema dist/schema",
     "start": "node dist/index.js",
+    "test": "node --experimental-test-module-mocks --require ts-node/register --test \"src/**/*.test.ts\"",
     "migrate:dev": "prisma migrate dev",
     "migrate:deploy": "prisma migrate deploy",
     "generate": "prisma generate"

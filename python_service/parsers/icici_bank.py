@@ -9,7 +9,7 @@ from parsers.utils import parse_amount, parse_date
 class ICICIBankParser(BaseBankParser):
     bank_code = "icici_bank"
 
-    def detect(self, content: bytes) -> bool:
+    def detect(self, content: bytes, password: str | None = None) -> bool:
         text = content.decode("utf-8", errors="ignore").lower()
         return "particulars" in text and "deposits" in text and "withdrawals" in text
 
@@ -18,7 +18,7 @@ class ICICIBankParser(BaseBankParser):
         match = re.search(r"Account Number.*?(\d{4})\D*$", text, re.MULTILINE)
         return match.group(1) if match else None
 
-    def parse(self, content: bytes) -> list[ParsedTransaction]:
+    def parse(self, content: bytes, password: str | None = None) -> list[ParsedTransaction]:
         text = content.decode("utf-8", errors="ignore")
         reader = csv.reader(io.StringIO(text))
         rows = list(reader)

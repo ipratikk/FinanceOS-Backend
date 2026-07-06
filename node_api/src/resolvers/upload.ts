@@ -1,4 +1,5 @@
 import { parseFile, importTransactions } from '../services/python';
+import { decryptPassword, EncryptedPassword } from '../services/passwordCrypto';
 import prisma from '../prisma/client';
 
 interface FileUpload {
@@ -12,7 +13,11 @@ export const uploadResolvers = {
   Mutation: {
     uploadStatement: async (
       _: unknown,
-      { ledgerId, file }: { ledgerId: string; file: Promise<FileUpload> },
+      {
+        ledgerId,
+        file,
+        password,
+      }: { ledgerId: string; file: Promise<FileUpload>; password?: EncryptedPassword },
     ) => {
       const { filename, createReadStream } = await file;
 
@@ -25,7 +30,11 @@ export const uploadResolvers = {
       });
       const buffer = Buffer.concat(chunks);
 
-      const parsed = await parseFile(buffer, filename);
+      const plaintextPassword = password ? decryptPassword(password) : undefined;
+      const parsed = await parseFile(buffer, filename, undefined, plaintextPassword);
+      if (parsed.password_required) {
+        throw new Error('Incorrect or missing password for this file');
+      }
       const imported = await importTransactions(ledgerId, parsed.transactions);
 
       const ledger = await prisma.ledger.findUniqueOrThrow({

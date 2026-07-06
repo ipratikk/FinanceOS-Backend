@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from analytics.spending import fetch_and_compute
 from cache import get_analytics_cache, invalidate_ledger_cache, set_analytics_cache
 from database import close_pool, get_pool
-from parsers.detector import detect_parser
+from parse_service import build_parse_response
 from pipeline.deduplicator import bulk_insert, split_new_and_duplicates
 
 
@@ -31,30 +31,13 @@ async def health():
 async def parse_file(
     file: UploadFile = File(...),
     bank_code: str | None = Form(default=None),
+    password: str | None = Form(default=None),
 ):
     content = await file.read()
-    parser = detect_parser(content, bank_code)
-    if parser is None:
+    result = build_parse_response(content, bank_code, password)
+    if result is None:
         raise HTTPException(status_code=422, detail="Unrecognised statement format. Provide bank_code.")
-    transactions = parser.parse(content)
-    return {
-        "bank_code": parser.bank_code,
-        "count": len(transactions),
-        "last4": parser.extract_last4(content),
-        "transactions": [
-            {
-                "postedAt": t.posted_at.isoformat(),
-                "description": t.description,
-                "amountMinorUnits": t.amount_minor_units,
-                "currencyCode": t.currency_code,
-                "sourceFingerprint": t.source_fingerprint,
-                "rewardPoints": t.reward_points,
-                "closingBalanceMinorUnits": t.closing_balance_minor_units,
-                "statementRowIndex": t.statement_row_index,
-            }
-            for t in transactions
-        ],
-    }
+    return result
 
 
 class ImportBody(BaseModel):

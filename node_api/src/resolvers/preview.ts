@@ -1,4 +1,5 @@
 import { parseFile } from '../services/python';
+import { decryptPassword, EncryptedPassword } from '../services/passwordCrypto';
 
 interface FileUpload {
   filename: string;
@@ -9,7 +10,10 @@ interface FileUpload {
 
 export const previewResolvers = {
   Mutation: {
-    previewStatement: async (_: unknown, { file }: { file: Promise<FileUpload> }) => {
+    previewStatement: async (
+      _: unknown,
+      { file, password }: { file: Promise<FileUpload>; password?: EncryptedPassword },
+    ) => {
       const { filename, createReadStream } = await file;
 
       const chunks: Buffer[] = [];
@@ -21,12 +25,14 @@ export const previewResolvers = {
       });
       const buffer = Buffer.concat(chunks);
 
-      const parsed = await parseFile(buffer, filename);
+      const plaintextPassword = password ? decryptPassword(password) : undefined;
+      const parsed = await parseFile(buffer, filename, undefined, plaintextPassword);
 
       return {
         bankCode: parsed.bank_code,
         last4: parsed.last4,
         transactionCount: parsed.count,
+        passwordRequired: parsed.password_required,
       };
     },
   },
