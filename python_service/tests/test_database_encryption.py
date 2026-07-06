@@ -44,17 +44,13 @@ def test_hmac_fingerprint_differs_for_different_input():
 
 
 def test_hmac_fingerprint_matches_known_fixture():
-    # Independently computed with a fixed HMAC key via the same library/version.
-    import hmac as hmac_module
-    import hashlib
-    fixture_hmac_key = "HxnzX2N1xeeGwRqy11P9lVvJKy0DTp4DRz+4KE8Bdww="
+    # Independently computed with the same DATABASE_ENCRYPTION_KEY this
+    # test file's autouse fixture sets (FIXTURE_KEY_B64), confirming
+    # hmac_fingerprint's actual output matches a real fixture — not just
+    # its own internal consistency (covered by the determinism test above).
     raw = "15/03/24|SWIGGY BANGALORE|50000|0"
-    expected = "0b9220310b001d9d3dada5c7d91fb38044fbbab7193f10dd675d3398d7fda8c2"
-
-    import base64
-    key_bytes = base64.b64decode(fixture_hmac_key)
-    actual = hmac_module.new(key_bytes, raw.encode(), hashlib.sha256).hexdigest()
-    assert actual == expected  # sanity-checks the fixture itself, not the module
+    expected = "08366b7663af513221c47139a4d2be79873d245779be9e2db7b89ed37a75ad47"
+    assert hmac_fingerprint(raw) == expected
 
 
 def test_missing_key_raises_at_import(monkeypatch):

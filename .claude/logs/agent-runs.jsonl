@@ -1,0 +1,3 @@
+{"ts":"2026-07-06T00:00:00Z","agent":"haiku","task":"fixture regen","files":["python_service/parse_service.py","python_service/main.py","python_service/tests/test_parse_service.py"],"escalated":false}
+{"ts":"2026-07-06T00:00:00Z","agent":"haiku","task":"build/test execution","files":["node_api/package.json","node_api/scripts/generate-import-password-keypair.js","node_api/src/services/passwordCrypto.ts","node_api/src/services/passwordCrypto.test.ts"],"escalated":false}
+{"ts":"2026-07-06T00:00:00Z","agent":"haiku","task":"fixture regen","files":["python_service/crypto/__init__.py","python_service/crypto/database_encryption.py","python_service/tests/test_database_encryption.py","python_service/requirements.txt"],"escalated":false}

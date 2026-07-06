@@ -43,4 +43,11 @@ def decrypt(ciphertext: str | None) -> str | None:
 
 
 def hmac_fingerprint(raw: str) -> str:
+    """Deterministic HMAC-SHA256 of `raw`, hex-encoded.
+
+    Intentionally reuses the same DATABASE_ENCRYPTION_KEY as encrypt/decrypt —
+    HMAC-SHA256 and AES-256-GCM are cryptographically independent uses of the
+    same key material. Do not introduce a second key here; that would
+    silently invalidate every existing sourceFingerprint hash in the DB.
+    """
     return hmac.new(_KEY, raw.encode("utf-8"), hashlib.sha256).hexdigest()
