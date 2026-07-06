@@ -15,3 +15,15 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Claude Code session artifacts (mirrors FinanceOS's .gitignore convention)
+.claude/settings.local.json
+.claude/session-status.md
+.claude/session-*.jsonl
+.claude/logs/
+.claude/plans/
+.claude/worktrees/
