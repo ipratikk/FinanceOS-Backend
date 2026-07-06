@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { randomBytes } from 'crypto';
+import { encryptOnWrite, decryptOnRead } from './encryptionExtension';
 
 const LEDGER_PREFIX: Record<string, string> = {
   BANK_ACCOUNT: 'AC',
@@ -14,24 +15,27 @@ function prefixedId(prefix: string): string {
   return `${prefix}-${randomBytes(4).toString('hex').toUpperCase()}`;
 }
 
-const prisma = new PrismaClient().$extends({
-  query: {
-    bank: {
-      create({ args, query }) {
-        if (!args.data.id) args.data.id = prefixedId('BA');
-        return query(args);
+const prisma = new PrismaClient()
+  .$extends({
+    query: {
+      bank: {
+        create({ args, query }) {
+          if (!args.data.id) args.data.id = prefixedId('BA');
+          return query(args);
+        },
+      },
+      ledger: {
+        create({ args, query }) {
+          if (!args.data.id) {
+            const kind = args.data.kind as string;
+            args.data.id = prefixedId(LEDGER_PREFIX[kind] ?? 'LD');
+          }
+          return query(args);
+        },
       },
     },
-    ledger: {
-      create({ args, query }) {
-        if (!args.data.id) {
-          const kind = args.data.kind as string;
-          args.data.id = prefixedId(LEDGER_PREFIX[kind] ?? 'LD');
-        }
-        return query(args);
-      },
-    },
-  },
-});
+  })
+  .$extends(encryptOnWrite)
+  .$extends(decryptOnRead);
 
 export default prisma;
