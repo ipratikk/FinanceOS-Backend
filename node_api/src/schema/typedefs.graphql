@@ -76,10 +76,16 @@ type ImportResult {
   ledger: Ledger!
 }
 
+input EncryptedPassword {
+  ephemeralPublicKey: String!
+  ciphertext: String!
+}
+
 type StatementPreview {
   bankCode: String!
   last4: String
   transactionCount: Int!
+  passwordRequired: Boolean!
 }
 
 input TransactionFilter {
@@ -118,8 +124,8 @@ type Query {
 }
 
 type Mutation {
-  uploadStatement(ledgerId: ID!, file: Upload!): ImportResult!
-  previewStatement(file: Upload!): StatementPreview!
+  uploadStatement(ledgerId: ID!, file: Upload!, password: EncryptedPassword): ImportResult!
+  previewStatement(file: Upload!, password: EncryptedPassword): StatementPreview!
   createLedger(input: CreateLedgerInput!): Ledger!
   updateLedger(id: ID!, input: UpdateLedgerInput!): Ledger!
   deleteLedger(id: ID!): Boolean!

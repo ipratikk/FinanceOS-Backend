@@ -1,6 +1,6 @@
 # FinanceOS API Reference
 
-> Auto-generated 2026-07-06 04:32 UTC from `node_api/src/schema/typedefs.graphql`. Do not edit manually.
+> Auto-generated 2026-07-06 04:37 UTC from `node_api/src/schema/typedefs.graphql`. Do not edit manually.
 
 ## Endpoint
 
@@ -76,6 +76,7 @@ _Upload a bank statement file (PDF or CSV) to import transactions. Uses `multipa
 
 - `ledgerId: ID!`
 - `file: Upload!`
+- `password: EncryptedPassword`
 
 **Returns:** `ImportResult!`
 
@@ -84,6 +85,7 @@ _Upload a bank statement file (PDF or CSV) to import transactions. Uses `multipa
 **Arguments:**
 
 - `file: Upload!`
+- `password: EncryptedPassword`
 
 **Returns:** `StatementPreview!`
 
@@ -235,10 +237,18 @@ _Wipe all banks, ledgers, and transactions. Irreversible._
 | `bankCode` | `String!` |
 | `last4` | `String` |
 | `transactionCount` | `Int!` |
+| `passwordRequired` | `Boolean!` |
 
 ---
 
 ## Input Types
+
+### `EncryptedPassword`
+
+| Field | Type |
+|-------|------|
+| `ephemeralPublicKey` | `String!` |
+| `ciphertext` | `String!` |
 
 ### `TransactionFilter`
 

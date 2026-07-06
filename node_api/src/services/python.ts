@@ -18,6 +18,7 @@ export interface ParseResponse {
   bank_code: string;
   count: number;
   last4: string | null;
+  password_required: boolean;
   transactions: ParsedTransaction[];
 }
 
@@ -31,10 +32,12 @@ export async function parseFile(
   fileBuffer: Buffer,
   filename: string,
   bankCode?: string,
+  password?: string,
 ): Promise<ParseResponse> {
   const form = new FormData();
   form.append('file', fileBuffer, { filename });
   if (bankCode) form.append('bank_code', bankCode);
+  if (password) form.append('password', password);
 
   const res = await axios.post<ParseResponse>(`${PYTHON_URL}/parse`, form, {
     headers: form.getHeaders(),
