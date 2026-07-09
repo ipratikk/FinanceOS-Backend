@@ -1,3 +1,5 @@
+import { Prisma } from '@prisma/client';
+import { GraphQLError } from 'graphql';
 import prisma from '../prisma/client';
 
 export const ledgerResolvers = {
@@ -16,7 +18,14 @@ export const ledgerResolvers = {
       { id, input }: { id: string; input: Partial<{ displayName: string; kind: string; last4: string }> },
     ) => prisma.ledger.update({ where: { id }, data: input as any, include: { bank: true } }),
     deleteLedger: async (_: unknown, { id }: { id: string }) => {
-      await prisma.ledger.delete({ where: { id } });
+      try {
+        await prisma.ledger.delete({ where: { id } });
+      } catch (e) {
+        if (e instanceof Prisma.PrismaClientKnownRequestError && e.code === 'P2025') {
+          throw new GraphQLError('Ledger not found', { extensions: { code: 'NOT_FOUND' } });
+        }
+        throw e;
+      }
       return true;
     },
   },

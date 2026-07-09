@@ -17,6 +17,26 @@ export const encryptOnWrite = Prisma.defineExtension({
         return query(args);
       },
     },
+    transaction: {
+      create({ args, query }) {
+        if (typeof args.data.narration === 'string') {
+          args.data.narration = encrypt(args.data.narration) as string;
+        }
+        if (typeof args.data.merchant === 'string') {
+          args.data.merchant = encrypt(args.data.merchant) as string;
+        }
+        return query(args);
+      },
+      update({ args, query }) {
+        if (typeof args.data.narration === 'string') {
+          args.data.narration = encrypt(args.data.narration) as string;
+        }
+        if (typeof args.data.merchant === 'string') {
+          args.data.merchant = encrypt(args.data.merchant) as string;
+        }
+        return query(args);
+      },
+    },
   },
 });
 
