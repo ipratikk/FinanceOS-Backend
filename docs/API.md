@@ -1,6 +1,6 @@
 # FinanceOS API Reference
 
-> Auto-generated 2026-07-09 06:13 UTC from `node_api/src/schema/typedefs.graphql`. Do not edit manually.
+> Auto-generated 2026-11-16 17:30 UTC from `node_api/src/schema/typedefs.graphql`. Do not edit manually.
 
 ## Endpoint
 
@@ -181,6 +181,8 @@ _Wipe all banks, ledgers, and transactions. Irreversible._
 | `bank` | `Bank!` |
 | `transactions` | `[Transaction!]!` |
 | `balance` | `Money!` |
+| `"ISO timestamp of the most recent successful statement upload, or null if none."` | `` |
+| `lastStatementAt` | `String` |
 
 ### `Transaction`
 

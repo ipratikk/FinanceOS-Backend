@@ -15,15 +15,28 @@ model Bank {
 }
 
 model Ledger {
-  id           String        @id @default(uuid())
-  displayName  String
-  kind         LedgerKind
-  last4        String?
-  bankId       String
-  bank         Bank          @relation(fields: [bankId], references: [id])
-  transactions Transaction[]
-  createdAt    DateTime      @default(now())
-  updatedAt    DateTime      @updatedAt
+  id               String            @id @default(uuid())
+  displayName      String
+  kind             LedgerKind
+  last4            String?
+  bankId           String
+  bank             Bank              @relation(fields: [bankId], references: [id])
+  transactions     Transaction[]
+  statementImports StatementImport[]
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+}
+
+/// One row per successful statement upload. Counts only; no filename (may contain account digits).
+model StatementImport {
+  id         String   @id @default(uuid())
+  ledgerId   String
+  ledger     Ledger   @relation(fields: [ledgerId], references: [id], onDelete: Cascade)
+  imported   Int
+  duplicates Int
+  importedAt DateTime @default(now())
+
+  @@index([ledgerId, importedAt])
 }
 
 model Transaction {

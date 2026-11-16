@@ -32,6 +32,14 @@ export const ledgerResolvers = {
   Ledger: {
     bank: (parent: { bankId: string }) =>
       prisma.bank.findUnique({ where: { id: parent.bankId } }),
+    lastStatementAt: async (parent: { id: string }) => {
+      const latest = await prisma.statementImport.findFirst({
+        where: { ledgerId: parent.id },
+        orderBy: { importedAt: 'desc' },
+        select: { importedAt: true },
+      });
+      return latest ? latest.importedAt.toISOString() : null;
+    },
     transactions: (
       parent: { id: string },
       { filter }: { filter?: { from?: string; to?: string; category?: string; minAmount?: number; maxAmount?: number } },

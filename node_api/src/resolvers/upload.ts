@@ -36,6 +36,9 @@ export const uploadResolvers = {
         throw new Error('Incorrect or missing password for this file');
       }
       const imported = await importTransactions(ledgerId, parsed.transactions);
+      await prisma.statementImport.create({
+        data: { ledgerId, imported: imported.imported, duplicates: imported.duplicates },
+      });
 
       const ledger = await prisma.ledger.findUniqueOrThrow({
         where: { id: ledgerId },
