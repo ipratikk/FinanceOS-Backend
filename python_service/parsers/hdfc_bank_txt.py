@@ -3,6 +3,12 @@ from parsers.base import BaseBankParser
 from parsers.utils import parse_amount, parse_date
 
 
+def _field(parts: list[str], col: dict[str, int], name: str, extra: int) -> str:
+    """Value of a header column, shifted right by `extra` when the narration contained commas."""
+    idx = col[name] + (extra if col[name] > col["narration"] else 0)
+    return parts[idx] if idx < len(parts) else ""
+
+
 class HDFCBankTXTParser(BaseBankParser):
     bank_code = "hdfc_bank_txt"
 
@@ -36,7 +42,11 @@ class HDFCBankTXTParser(BaseBankParser):
             if not date:
                 continue
 
-            desc_raw = parts[col["narration"]] if "narration" in col else ""
+            # Narrations can contain commas ("NEFT DR-...-NETBANK, MUM-..."). Every column after the
+            # narration then shifts right by the extra fields, so join the narration back together and
+            # index the remaining columns with that offset. Otherwise debit/credit swap and signs flip.
+            extra = max(len(parts) - len(header), 0)
+            desc_raw = ",".join(parts[col["narration"]: col["narration"] + extra + 1]) if "narration" in col else ""
             desc = " ".join(desc_raw.split())
             fp_desc = "".join(desc.split())
 
@@ -44,8 +54,8 @@ class HDFCBankTXTParser(BaseBankParser):
             credit_key = next((k for k in col if "credit" in k or "deposit" in k), None)
             balance_key = next((k for k in col if "closing" in k or "balance" in k), None)
 
-            debit_str = parts[col[debit_key]] if debit_key and col[debit_key] < len(parts) else ""
-            credit_str = parts[col[credit_key]] if credit_key and col[credit_key] < len(parts) else ""
+            debit_str = _field(parts, col, debit_key, extra) if debit_key else ""
+            credit_str = _field(parts, col, credit_key, extra) if credit_key else ""
 
             credit = parse_amount(credit_str) or 0
             debit = parse_amount(debit_str) or 0
@@ -57,8 +67,8 @@ class HDFCBankTXTParser(BaseBankParser):
             fingerprint = f"{date_str}|{fp_desc}|{credit}|{debit}"
 
             closing = None
-            if balance_key and col[balance_key] < len(parts):
-                closing = parse_amount(parts[col[balance_key]])
+            if balance_key:
+                closing = parse_amount(_field(parts, col, balance_key, extra))
 
             results.append(ParsedTransaction(
                 posted_at=date,

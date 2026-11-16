@@ -1,4 +1,19 @@
-import { parseFile, importTransactions } from '../services/python';
+import { parseFile, importTransactions, ParsedTransaction } from '../services/python';
+
+/** Closing balance printed on the statement's latest-dated row (ties resolve to the later row). */
+function latestClosingBalance(
+  transactions: ParsedTransaction[],
+): { balance: number; asOf: Date } | null {
+  let best: { balance: number; asOf: Date } | null = null;
+  for (const t of transactions) {
+    if (t.closingBalanceMinorUnits == null) continue;
+    const asOf = new Date(t.postedAt);
+    if (!best || asOf.getTime() >= best.asOf.getTime()) {
+      best = { balance: t.closingBalanceMinorUnits, asOf };
+    }
+  }
+  return best;
+}
 import { decryptPassword, EncryptedPassword } from '../services/passwordCrypto';
 import prisma from '../prisma/client';
 
@@ -36,6 +51,16 @@ export const uploadResolvers = {
         throw new Error('Incorrect or missing password for this file');
       }
       const imported = await importTransactions(ledgerId, parsed.transactions);
+      const closing = latestClosingBalance(parsed.transactions);
+      await prisma.statementImport.create({
+        data: {
+          ledgerId,
+          imported: imported.imported,
+          duplicates: imported.duplicates,
+          closingBalance: closing?.balance ?? null,
+          closingBalanceAsOf: closing?.asOf ?? null,
+        },
+      });
 
       const ledger = await prisma.ledger.findUniqueOrThrow({
         where: { id: ledgerId },

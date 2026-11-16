@@ -27,6 +27,8 @@ type Ledger {
   bank: Bank!
   transactions(filter: TransactionFilter): [Transaction!]!
   balance: Money!
+  "ISO timestamp of the most recent successful statement upload, or null if none."
+  lastStatementAt: String
 }
 
 enum LedgerKind {

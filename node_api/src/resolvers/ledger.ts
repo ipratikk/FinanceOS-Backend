@@ -32,6 +32,14 @@ export const ledgerResolvers = {
   Ledger: {
     bank: (parent: { bankId: string }) =>
       prisma.bank.findUnique({ where: { id: parent.bankId } }),
+    lastStatementAt: async (parent: { id: string }) => {
+      const latest = await prisma.statementImport.findFirst({
+        where: { ledgerId: parent.id },
+        orderBy: { importedAt: 'desc' },
+        select: { importedAt: true },
+      });
+      return latest ? latest.importedAt.toISOString() : null;
+    },
     transactions: (
       parent: { id: string },
       { filter }: { filter?: { from?: string; to?: string; category?: string; minAmount?: number; maxAmount?: number } },
@@ -45,11 +53,22 @@ export const ledgerResolvers = {
       return prisma.transaction.findMany({ where, orderBy: { date: 'desc' } });
     },
     balance: async (parent: { id: string }) => {
+      // Prefer the statement's own closing balance: it includes the opening balance, which the
+      // transaction sum does not.
+      const latest = await prisma.statementImport.findFirst({
+        where: { ledgerId: parent.id, closingBalance: { not: null } },
+        orderBy: { closingBalanceAsOf: 'desc' },
+      });
+      if (latest?.closingBalance != null) {
+        return { value: latest.closingBalance, currencyCode: 'INR' };
+      }
+      // Fallback (no statement with a closing balance): amounts are debit-positive, so the
+      // balance is credits minus debits.
       const result = await prisma.transaction.aggregate({
         where: { ledgerId: parent.id },
         _sum: { amountMinorUnits: true },
       });
-      return { value: result._sum.amountMinorUnits ?? 0, currencyCode: 'INR' };
+      return { value: -(result._sum.amountMinorUnits ?? 0), currencyCode: 'INR' };
     },
   },
 };
