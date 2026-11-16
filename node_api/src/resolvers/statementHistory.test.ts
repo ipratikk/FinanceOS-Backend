@@ -31,5 +31,7 @@ test('uploadStatement records a StatementImport row after a successful import', 
   });
   await uploadResolvers.Mutation.uploadStatement(null, { ledgerId: 'ledger-1', file });
 
-  assert.deepStrictEqual(created, [{ data: { ledgerId: 'ledger-1', imported: 1, duplicates: 2 } }]);
+  assert.deepStrictEqual(created, [{
+    data: { ledgerId: 'ledger-1', imported: 1, duplicates: 2, closingBalance: null, closingBalanceAsOf: null },
+  }]);
 });

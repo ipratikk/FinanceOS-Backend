@@ -35,6 +35,9 @@ model StatementImport {
   imported   Int
   duplicates Int
   importedAt DateTime @default(now())
+  /// Statement's final closing balance in minor units (signed, as printed). Null for card statements.
+  closingBalance       Int?
+  closingBalanceAsOf   DateTime?
 
   @@index([ledgerId, importedAt])
 }
